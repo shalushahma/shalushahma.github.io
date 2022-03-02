@@ -1,15 +1,14 @@
 var names=new Array();
-names[0]="ezra";
-names[1]="yaslin";
-names[2]="kite";
-names[3]="jaisel";
-names[4]="gitar";
-names[5]="jony";
-names[6]="Jennifer";
-names[7]="Pol";
-names[8]="Fenny";
-names[9]="Jeslin";
-
+names[0]="Yaakov";
+names[1]="John";
+names[2]="Jen";
+names[3]="jason";
+names[4]="paul";
+names[5]="frank";
+names[6]="larry";
+names[7]="paula";
+names[8]="laura";
+names[9]="jim";
 
 for (var i = 0; i < names.length; i++) {
 	if(names[i].charAt(0)==='J'|| names[i].charAt(0)==='j'){
