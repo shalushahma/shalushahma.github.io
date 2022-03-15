@@ -151,6 +151,7 @@ nav .fa{
 }
 .header_content img {
     width: 89%;
+    height: fit-content;
     margin: 49px 15px 22px 19px;
 }
 .header_content h1 {
