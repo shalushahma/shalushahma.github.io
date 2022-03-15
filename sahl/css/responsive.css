@@ -1522,7 +1522,8 @@ nav ul li a {
     width: 155px;
     height: 50px;
     border-radius: 15px;
-    margin-bottom: 23px;
+    margin-top: 8px;
+    margin-bottom: 40px;
 }
 .learnbt {
     background: #ffff
@@ -1531,8 +1532,8 @@ nav ul li a {
     width: 155px;
     height: 50px;
     border-radius: 15px;
-    margin-bottom: 23px;
-    /*margin-left: 150px;*/
+   margin-top:8px;
+    margin-bottom: 40px;
 }
 .section-6 {
     width: 100%;
