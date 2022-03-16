@@ -1548,6 +1548,7 @@ nav ul li a {
 }
 .header_content img{
     width: 90%;
+    height: auto;
     margin: 65px 17px 8px 13px;
 }
 .section-7 {
