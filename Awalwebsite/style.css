@@ -1,9 +1,27 @@
+/*navbar css*/
+ .logo img{
+    height: 61px;
+    margin:8px 0px 0px 0px;
+}
+.searchicon img {
+    height: 41px;
+    margin: 8px 17px 0px 1365px;
+}
+
+
+.menuicon img {
+    height: 32px;
+    margin: 8px 17px 9px 0px;
+}
+
+/*navbar end*/
+
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
-* {
+/** {
   box-sizing: border-box;
   user-select: none;
-}
+}*/
 
 a {
   color: #fff;
@@ -16,20 +34,10 @@ body {
   height: 100vh;
   color: white;
   background: black;
-  font-family: "Cormorant Garamond", serif;
-  text-transform: uppercase;
+  
 }
 
-h2 {
-  font-size: clamp(1rem, 5vw, 5rem);
-  font-weight: 400;
-  text-align: center;
-  letter-spacing: 0.5em;
-  margin-right: -0.5em;
-  color: #ccc;
-  width: 90vw;
-  max-width: 1200px;
-}
+
 
 header {
   position: fixed;
@@ -80,9 +88,51 @@ section .bg .clip-text {
 }
 
 .first .bg {
-  background-color: blue;
+  background-color: #0059A3;
+}
+img.dots1 {
+    height: 10 px;
+    width: 75px;
+    margin: 3px 12px 20px 106px;
+}
+.first h4 {
+    color: #F8931F;
+    font-size: 20px;
+    margin: 11px 11px 36px 106px;
+}
+.first h2 {
+    color: #ffff;
+    font-size: 50px;
+    font-family: poppins;
+    margin: -11px -1px 36px 105px;
 }
 
+.exploremorebt {
+    
+    background: #F8931F;
+    color: #ffff;
+    border: none;
+    width: 171px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 0px 0px 0px 110px;
+}
+.first h3{
+    color: #ffff;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: poppins;
+    margin: -11px -1px 36px 105px;
+}
+img.sec1image{
+    height: 509px;
+    margin: -189px 26px 14px 67px;
+}
+
+img.sec1image1 {
+    height: 437px;
+    margin: -20px 16px -203px 108px;
+}
 .second .bg {
   background-color: black;
 }

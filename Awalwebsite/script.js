@@ -1,3 +1,8 @@
+// navbar script
+
+// navbar script end
+
+
 gsap.registerPlugin(Observer);
 
 let sections = document.querySelectorAll("section"),
