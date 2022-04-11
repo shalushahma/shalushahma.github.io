@@ -267,6 +267,8 @@ img.sec1image {
     height: 259px;
     margin: 25px 26px 14px 119px;
 }
+overflow: scroll;
+-webkit-overflow-scrolling: touch;
 }
 
 
@@ -320,6 +322,8 @@ img.sec1image1 {
     height: 171px;
     margin: 71px -6px -298px 105px;
 }
+overflow: scroll;
+-webkit-overflow-scrolling: touch;
 }
 
 /*responsive for medium mobile phone*/
@@ -371,4 +375,7 @@ img.sec1image1 {
 img.sec1image {
     height: 126px;
     margin: 17px 26px 14px 38px;
+}
+overflow: scroll;
+-webkit-overflow-scrolling: touch;
 }
