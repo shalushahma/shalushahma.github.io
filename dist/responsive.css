@@ -8,6 +8,10 @@
     height: 61px;
     margin: 159px 13px 14px 114px;
 }
+.logoblue img{
+    height: 61px;
+    margin: 159px 13px 14px 114px;
+}
 img.dots1{
     width: 75px;
     margin: 114px 0px 42px 150px;
@@ -83,6 +87,10 @@ img.sec2image {
   and (-webkit-min-device-pixel-ratio: 1) {
 
 .logo img {
+    height: 61px;
+    margin: 159px 13px 14px 45px;
+}
+.logoblue img {
     height: 61px;
     margin: 159px 13px 14px 45px;
 }
@@ -173,7 +181,10 @@ img.sec2image {
     height: 61px;
     margin: 154px 13px 14px 36px;
 }
-
+.logoblue img {
+    height: 61px;
+    margin: 154px 13px 14px 36px;
+}
 img.dots1 {
     width: 58px;
     margin: 94px 0px 42px 85px;
@@ -285,6 +296,10 @@ img.sec2image {
   and (-webkit-min-device-pixel-ratio: 1){
 
  .logo img {
+    height: 61px;
+    margin: 157px 13px 14px 40px;
+}
+.logoblue img {
     height: 61px;
     margin: 157px 13px 14px 40px;
 }
@@ -451,6 +466,10 @@ img.sec2image {
     margin: -31px 68px 36px 45px;
     line-height: initial;
 }
+.logoblue img {
+    height: 32px;
+    margin: 139px 13px -6px 21px;
+}
 }
 
 
@@ -537,6 +556,10 @@ img.sec2image {
     margin: -25px 61px 36px 45px;
     line-height: initial;
 }
+.logoblue img {
+    height: 32px;
+    margin: 132px 13px -6px 21px;
+}
 }
 /*responsive for medium mobile phone*/
 @media screen 
@@ -590,7 +613,7 @@ img.sec1image {
 }
 .logo img {
     height: 32px;
-    margin: 139px 13px -6px 21px;
+    margin: 113px 13px -6px 21px;
 }
 img.sec2image {
     height: 267px;
@@ -620,5 +643,9 @@ img.sec2image {
     font-weight: 200;
     margin: -27px 42px 36px 30px;
     line-height: initial;
+}
+.logoblue img {
+    height: 32px;
+    margin: 132px 13px -6px 21px;
 }
 }
