@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+html, body {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+/*navigation bar css*/
+.header{
+  width: 100%;
+  height: 28vh;
+}
+.logo img{
+    height: 61px;
+    margin: 159px 13px 14px 114px;
+}
+
+
+.menuicon img {
+    height: 36px;
+    margin: 159px 13px 14px 1452px;
+}
+nav{
+  padding: 0;
+  margin: 0;
+  display: flex !important;
+  justify-content: space-between;
+}
+/*navigation bar css end*/
+
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  height: 130vh;
+  position: fixed;
+  width: 100%;
+  transform: translateY(30vh);
+  transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
+}
+.container-fluid{
+  height: 130vh;
+  width: 100%;
+}
+.background:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.background:first-child {
+  background-color: #0059A3;
+  transform: translateY(-15vh);
+}
+.background:first-child .content-wrapper {
+  transform: translateY(15vh);
+}
+.background:nth-child(2) {
+  background-color: red;
+}
+.background:nth-child(3) {
+  background-color: yellow;
+}
+
+/* Set stacking context of slides */
+.background:nth-child(1) {
+  z-index: 3;
+}
+
+.background:nth-child(2) {
+  z-index: 2;
+}
+
+.background:nth-child(3) {
+  z-index: 1;
+}
+
+
+.content-title {
+  font-size: 12vh;
+  line-height: 1.4;
+}
+
+.background.up-scroll {
+  transform: translate3d(0, -15vh, 0);
+}
+.background.up-scroll .content-wrapper {
+  transform: translateY(15vh);
+}
+.background.up-scroll + .background {
+  transform: translate3d(0, 30vh, 0);
+}
+.background.up-scroll + .background .content-wrapper {
+  transform: translateY(30vh);
+}
+
+.background.down-scroll {
+  transform: translate3d(0, -130vh, 0);
+}
+.background.down-scroll .content-wrapper {
+  transform: translateY(40vh);
+}
+.background.down-scroll + .background:not(.down-scroll) {
+  transform: translate3d(0, -15vh, 0);
+}
+.background.down-scroll + .background:not(.down-scroll) .content-wrapper {
+  transform: translateY(15vh);
+}
+/*code starts*/
+
+img.dots1{
+    width: 75px;
+    margin: 114px 0px 42px 150px;
+}
+.first h4 {
+    color: #F8931F;
+    font-size: 20px;
+    margin: 11px 11px 36px 150px;
+}
+.first h2 {
+    color: #ffff;
+    font-size: 50px;
+    font-family: poppins;
+    margin: -11px -1px 36px 150px;
+}
+
+.exploremorebt {
+    
+    background: #F8931F;
+    color: #ffff;
+    border: none;
+    width: 171px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 0px 0px 0px 150px;
+}
+.first h3{
+    color: #ffff;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: poppins;
+    margin: -11px -1px 36px 150px;
+}
+img.sec1image{
+    height: 509px;
+    margin: -189px 26px 14px 67px;
+}
+
+img.sec1image1 {
+    height: 437px;
+    margin: 73px -6px -207px 112px;
+}
+}
