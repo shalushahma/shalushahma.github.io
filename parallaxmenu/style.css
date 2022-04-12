@@ -8,7 +8,7 @@ body, html {
   color: #666;
 }
 
-.pimg1, .pimg2, .pimg3 {
+.pimg1{
   position: relative;
   opacity: 0.90;
   background-position: center;
@@ -22,55 +22,11 @@ body, html {
 }
 
 .pimg1 {
-  background-image: url(https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?cs=srgb&dl=architecture-arriere-plans-de-bureau-batiments-1519088.jpg&fm=jpg);
-  min-height: 100%;
+  background-color: #0059A3;
+  min-height: 100vh;
 }
 
-.pimg2 {
-  background-image: url(https://images.pexels.com/photos/2129814/pexels-photo-2129814.png?cs=srgb&dl=activites-affaires-architecture-2129814.jpg&fm=jpg);
-  min-height: 400px;
-}
 
-.pimg3 {
-  background-image: url(https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?cs=srgb&dl=aerien-architecture-batiments-466685.jpg&fm=jpg);
-  min-height: 400px;
-}
-
-.section {
-  text-align: center;
-  padding: 50px 80px;
-}
-
-.section-light {
-  background-color: #f4f4f4;
-  color: #666;
-}
-
-.section-dark {
-  background-color: #282e34;
-  color: #ddd;
-}
-
-.ptext {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-  font-size: 27px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-}
-
-.ptext .border {
-  background-color: #111;
-  color: #fff;
-  padding: 20px;
-}
-
-.ptext .border .trans {
-  background-color: transparent;
-}
 
 @@media (max-width:568px) {
   .pimg1, .pimg2, .pimg3 {
@@ -150,5 +106,53 @@ body, html {
   margin-top: 25px;
   right: 25px;
   position: fixed;
-  color: red;
+  color: #ffff;
 }
+/*code*/
+.logo img {
+    height: 54px;
+    margin: 19px 13px 0px 114px;
+}
+img.dots1 {
+    width: 74px;
+    margin: 33px 0px 0px 150px;
+}
+.first h4 {
+    color: #F8931F;
+    font-size: 20px;
+    margin: 25px 11px 24px 150px;
+}
+.first h2 {
+    color: #ffff;
+    font-size: 50px;
+    font-family: poppins;
+    margin: -11px -1px 36px 150px;
+}
+
+.exploremorebt {
+    
+    background: #F8931F;
+    color: #ffff;
+    border: none;
+    width: 171px;
+    height: 50px;
+    border-radius: 4px;
+    margin: 0px 0px 0px 150px;
+}
+.first h3{
+    color: #ffff;
+    font-size: 23px;
+    font-weight: 200;
+    line-height: initial;
+    margin: -11px -1px 36px 150px;
+}
+img.sec1image{
+    height: 509px;
+    margin: -189px 26px 14px 67px;
+}
+
+img.sec1image1 {
+    height: 437px;
+    margin: 73px -6px -207px 112px;
+}
+
