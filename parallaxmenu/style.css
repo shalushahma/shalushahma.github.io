@@ -157,20 +157,21 @@ img.sec1image1 {
 
 /*slider*/
 .slide img {
-  width: 100px;
-  height: 100px;
-  animation: scroll 60s linear infinite;
+  width: 140px;
+  height: 140px;
+  animation: scroll 30s linear infinite;
 }
 
 .slide-track {
-  width: 100%;
+  width: 50%;
+  height: 160px;
   display: flex;
   gap: 3em;
   overflow: hidden;
 }
 
 .slider {
-    margin-top: -175px;
+    margin-top: -242px;
     background-color: whitesmoke;
 }
 
