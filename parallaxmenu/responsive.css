@@ -8,6 +8,15 @@
     height: 54px;
     margin: 19px 13px 0px 114px;
 }
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 45px;
+    /* color: #818181; */
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
+}
 img.dots1 {
     width: 74px;
     margin: 33px 0px 0px 150px;
@@ -41,14 +50,14 @@ img.dots1 {
     line-height: initial;
     margin: -11px -1px 36px 150px;
 }
-img.sec1image{
-    height: 509px;
-    margin: -189px 26px 14px 67px;
+img.sec1image {
+    height: 432px;
+    margin: -264px 26px 14px 86px;
 }
 
 img.sec1image1 {
-    height: 437px;
-    margin: 73px -6px -207px 112px;
+    height: 371px;
+    margin: 149px -6px -207px 121px;
 }
 }
 /*responsive for extra large laptop*/
@@ -64,6 +73,15 @@ img.sec1image1 {
 .logoblue img {
     height: 61px;
     margin: 159px 13px 14px 45px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 40px;
+    /* color: #818181; */
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
 }
 .menuicon img {
     height: 36px;
@@ -123,9 +141,14 @@ img.sec1image1 {
     height: 54px;
     margin: 19px 13px 0px 114px;
 }
-.logoblue img {
-    height: 61px;
-    margin: 154px 13px 14px 36px;
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    /* color: #818181; */
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
 }
 img.dots1 {
     width: 58px;
@@ -178,7 +201,15 @@ img.sec1image {
     height: 45px;
     margin: 27px 13px 2px 41px;
 }
-
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    /* color: #818181; */
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
+}
 img.dots1 {
     width: 54px;
     margin: 30px 0px 42px 83px;
@@ -234,6 +265,15 @@ img.sec1image {
 .logo img {
     height: 32px;
     margin: 43px 13px -6px 21px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 23px;
+    /* color: #818181; */
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
 }
  img.dots1 {
     width: 54px;
@@ -294,6 +334,15 @@ img.dots1 {
     width: 48px;
     margin: 47px 0px 42px 32px;
 }
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    /* color: #818181; */
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
+}
 .first h4 {
     color: #F8931F;
     font-size: 15px;
@@ -341,6 +390,15 @@ img.sec1image1 {
 .logo img {
     height: 32px;
     margin: 37px 13px -4px 21px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    /* color: #818181; */
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
 }
 
 img.dots1 {

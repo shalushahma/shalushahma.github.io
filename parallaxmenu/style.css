@@ -66,15 +66,14 @@ body, html {
 }
 
 .overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  /* color: #818181; */
-  color: red;
-  display: block;
-  transition: 0.3s;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 45px;
+    /* color: #818181; */
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
 }
-
 .overlay a:hover, .overlay a:focus {
   color: blue;
 }
@@ -147,13 +146,36 @@ img.dots1 {
     line-height: initial;
     margin: -11px -1px 36px 150px;
 }
-img.sec1image{
-    height: 509px;
-    margin: -189px 26px 14px 67px;
+img.sec1image {
+    height: 398px;
+    margin: -255px 26px 14px 86px;
 }
-
 img.sec1image1 {
-    height: 437px;
-    margin: 73px -6px -207px 112px;
+    height: 343px;
+    margin: 111px -6px -176px 121px;
 }
 
+/*slider*/
+.slide img {
+  width: 100px;
+  height: 100px;
+  animation: scroll 60s linear infinite;
+}
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}
+
+.slider {
+    margin-top: -175px;
+    background-color: whitesmoke;
+}
+
+@keyframes scroll {
+  0% {transform: translateX(0);}
+  100% {transform: translatex(-1000%)}
+}
+/*slider ends*/
