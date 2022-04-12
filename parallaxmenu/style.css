@@ -160,7 +160,7 @@ img.sec1image1 {
 .slide img {
   width: 140px;
   height: 140px;
-  animation: scroll 30s linear infinite;
+  animation: scroll 16s linear infinite;
 }
 
 .slide-track {

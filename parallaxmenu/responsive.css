@@ -61,7 +61,7 @@ img.sec1image1 {
 .slide img {
   width: 140px;
   height: 140px;
-  animation: scroll 30s linear infinite;
+  animation: scroll 16s linear infinite;
 }
 
 .slide-track {
@@ -153,7 +153,7 @@ img.sec1image1 {
 .slide img {
   width: 140px;
   height: 140px;
-  animation: scroll 30s linear infinite;
+  animation: scroll 16s linear infinite;
 }
 
 .slide-track {
@@ -238,7 +238,7 @@ img.sec1image {
 .slide img {
     width: 120px;
     height: 120px;
-    animation: scroll 30s linear infinite;
+    animation: scroll 16s linear infinite;
 }
 }
  /*responsive for tablet big*/
@@ -318,7 +318,7 @@ img.sec1image {
 .slide img {
     width: 135px;
     height: 135px;
-    animation: scroll 30s linear infinite;
+    animation: scroll 16s linear infinite;
 }
 
 }
@@ -398,7 +398,7 @@ img.sec1image {
 .slide img {
     width: 135px;
     height: 135px;
-    animation: scroll 30s linear infinite;
+    animation: scroll 16s linear infinite;
 }
 }
 
@@ -475,7 +475,7 @@ img.sec1image1 {
 .slide img {
     width: 135px;
     height: 135px;
-    animation: scroll 30s linear infinite;
+    animation: scroll 16s linear infinite;
 }
 
 }
@@ -552,6 +552,6 @@ img.sec1image {
 .slide img {
     width: 135px;
     height: 135px;
-    animation: scroll 30s linear infinite;
+    animation: scroll 16s linear infinite;
 }
 }
