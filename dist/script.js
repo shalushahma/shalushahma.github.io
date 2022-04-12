@@ -7,6 +7,8 @@
  **  https://codepen.io/eehayman/pen/qdGZJr
  **
  *****************************************/
+// navbar script
+
 
 // ------------- VARIABLES ------------- //
 var ticking = false;
