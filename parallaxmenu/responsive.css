@@ -73,8 +73,8 @@ img.sec1image1 {
 }
 
 .slider {
-    margin-top: -242px;
-    background-color: whitesmoke;
+    margin-top: 65px;
+    background-color: #0059A3;
 }
 }
 /*responsive for extra large laptop*/
@@ -147,8 +147,8 @@ img.sec1image1 {
     margin: 150px -6px -207px 112px;
 }
 .slider {
-    margin-top: -207px;
-    background-color: whitesmoke;
+    margin-top: 65px;
+    background-color: #0059A3;
 }
 .slide img {
   width: 140px;
@@ -232,8 +232,8 @@ img.sec1image {
     overflow: hidden;
 }
 .slider {
-    margin-top: -188px;
-    background-color: whitesmoke;
+    margin-top: 65px;
+    background-color: #0059A3;
 }
 .slide img {
     width: 120px;
@@ -312,8 +312,8 @@ img.sec1image {
     overflow: hidden;
 }
 .slider {
-    margin-top: -230px;
-    background-color: whitesmoke;
+    margin-top: 65px;
+    background-color: #0059A3;
 }
 .slide img {
     width: 135px;
@@ -392,8 +392,8 @@ img.sec1image {
     overflow: hidden;
 }
 .slider {
-    margin-top: -219px;
-    background-color: whitesmoke;
+    margin-top: 58px;
+    background-color: #0059A3;
 }
 .slide img {
     width: 135px;
@@ -469,8 +469,8 @@ img.sec1image1 {
     overflow: hidden;
 }
 .slider {
-    margin-top: -219px;
-    background-color: whitesmoke;
+    margin-top: 60px;
+    background-color: #0059A3;
 }
 .slide img {
     width: 135px;
@@ -510,17 +510,17 @@ img.dots1 {
 }
 .first h2 {
     color: #ffff;
-    font-size: 33px;
+    font-size: 30px;
     font-family: poppins;
     margin: -21px -1px 36px 31px;
 }
 .first h3 {
     color: #ffff;
-    font-size: 16px;
+    font-size: 13px;
     line-height: initial;
     font-weight: 200;
     font-family: poppins;
-    margin: -26px 108px 15px 31px;
+    margin: -28px 47px 15px 31px;
 }
 .exploremorebt {
     background: #F8931F;
@@ -546,8 +546,8 @@ img.sec1image {
     overflow: hidden;
 }
 .slider {
-    margin-top: -219px;
-    background-color: whitesmoke;
+    margin-top: 42px;
+    background-color: #0059A3;
 }
 .slide img {
     width: 135px;
