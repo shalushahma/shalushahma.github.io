@@ -34,7 +34,9 @@ body, html {
     min-height:100vh;
 }
 
-
+.background{
+  position: fixed;
+}
 
 @media (max-width:568px) {
   .pimg1, .pimg2, .pimg3 {
