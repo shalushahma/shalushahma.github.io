@@ -54,10 +54,10 @@ body, html {
     top: 0;
     left: 0;
     /* background-color: rgb(0, 0, 0); */
-    background-color: #000;
+    background-color: #fff;
     overflow-y: hidden;
     transition: 0.5s;
-    opacity: 96%;
+    /*opacity: 96%;*/
 }
 
 .overlay-content {
@@ -65,7 +65,7 @@ body, html {
   top: 25%;
   width: 100%;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .overlay a {
@@ -73,7 +73,7 @@ body, html {
     text-decoration: none;
     font-size: 45px;
     /* color: #818181; */
-    color: #ffff;
+    color: #0055A6;
     display: block;
     transition: 0.3s;
 }
@@ -115,6 +115,11 @@ body, html {
 .logo img {
     height: 54px;
     margin: 19px 13px 0px 114px;
+    position: sticky;
+}
+.logo1 img {
+    height: 58px;
+    margin: 33px 13px 0px 114px;
     position: sticky;
 }
 img.dots1 {
