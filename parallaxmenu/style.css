@@ -10,7 +10,7 @@ body, html {
   color: #666;
 }
 
-.pimg1{
+/*.pimg1{
   position: relative;
   opacity: 0.90;
   background-position: center;
@@ -21,16 +21,17 @@ body, html {
   /*
   fixed = Parallax
   scroll = normal*/
-}
+/*}*/
 
 .pimg1 {
-  background-color: #0059A3;
-  min-height: 100vh;
+
+    background-color: #0055A6;
+    min-height:100vh;
 }
 
 
 
-@@media (max-width:568px) {
+@media (max-width:568px) {
   .pimg1, .pimg2, .pimg3 {
     background-attachment: scroll;
   }
@@ -46,16 +47,17 @@ body, html {
 
 /* nav */
 .overlay {
-  height: 0%;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
-  overflow-y: hidden;
-  transition: 0.5s;
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: #000;
+    overflow-y: hidden;
+    transition: 0.5s;
+    opacity: 96%;
 }
 
 .overlay-content {
@@ -76,14 +78,14 @@ body, html {
     transition: 0.3s;
 }
 .overlay a:hover, .overlay a:focus {
-  color: blue;
+  color: #EC6C00;
 }
 
 .overlay .closebtn {
-  position: absolute;
-  top: 18px;
-  right: 16px;
-  font-size: 60px;
+    position: absolute;
+    top: 18px;
+    right: 16px;
+    font-size: 50px;
 }
 
 @media screen and (max-height: 450px) {
@@ -133,7 +135,7 @@ img.dots1 {
 
 .exploremorebt {
     
-    background: #F8931F;
+    background: #EC6C00;
     color: #ffff;
     border: none;
     width: 171px;
@@ -174,7 +176,7 @@ img.sec1image1 {
 
 .slider {
     margin-top: -242px;
-    background-color: #0059A3;
+    background-color: #0055A6;
 }
 
 @keyframes scroll {
