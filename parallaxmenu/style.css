@@ -9,12 +9,7 @@ body, html {
   line-height: 1.8em;
   color: #666;
 }
-.navbar {
-  position: fixed;
-  width: 100%;
-  background: #000;
-  color: #fff;
-}
+
 /*.pimg1{
   position: relative;
   opacity: 0.90;
@@ -34,9 +29,7 @@ body, html {
     min-height:100vh;
 }
 
-.background{
-  position: fixed;
-}
+
 
 @media (max-width:568px) {
   .pimg1, .pimg2, .pimg3 {
