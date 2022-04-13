@@ -90,8 +90,8 @@ img.sec1image1 {
   and (-webkit-min-device-pixel-ratio: 1) {
 
 .logo img {
-    height: 51px;
-    margin: 25px 13px 0px 114px;
+    height: 50px;
+    margin: 21px 13px 28px 114px;
 }
 .logo1 img {
     height: 58px;
@@ -513,8 +513,8 @@ img.sec1image1 {
   and (-webkit-min-device-pixel-ratio: 1){
 
 .logo img {
-    height: 32px;
-    margin: 37px 13px -4px 21px;
+    height: 34px;
+    margin: 33px 13px 5px 21px;
 }
 .logo1 img {
     height: 37px;
