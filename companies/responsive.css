@@ -138,14 +138,24 @@
 .pimg1 {
     background-image: url(../companies/img/marco4.png);
     min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
 }
 .pimg2 {
   background-image: url(../companies/img/marco5.png);;
   min-height: 800px;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .pimg3 {
   background-image: url(../companies/img/marco6.png);
   min-height: 800px;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 }
@@ -161,14 +171,23 @@
 .pimg1 {
     background-image: url(../companies/img/marco4.png);
     min-height: 100%;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .pimg2 {
   background-image: url(../companies/img/marco5.png);;
   min-height: 800px;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .pimg3 {
   background-image: url(../companies/img/marco6.png);
   min-height: 800px;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .firstsection h2{
