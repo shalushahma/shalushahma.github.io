@@ -135,6 +135,18 @@
     display: block;
     transition: 0.3s;
 }
+.pimg1 {
+    background-image: url(../companies/img/marco4.png);
+    min-height: 100%;
+}
+.pimg2 {
+  background-image: url(../companies/img/marco5.png);;
+  min-height: 800px;
+}
+.pimg3 {
+  background-image: url(../companies/img/marco6.png);
+  min-height: 800px;
+}
 
 }
 /*responsive for medium mobile phone*/
@@ -150,6 +162,15 @@
     background-image: url(../companies/img/marco4.png);
     min-height: 100%;
 }
+.pimg2 {
+  background-image: url(../companies/img/marco5.png);;
+  min-height: 800px;
+}
+.pimg3 {
+  background-image: url(../companies/img/marco6.png);
+  min-height: 800px;
+}
+
 .firstsection h2{
  font-size: 20px;
  line-height: normal;
