@@ -12,6 +12,11 @@
  font-size: 28px;
  line-height: normal;
 }
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
 }
 /*responsive for extra large laptop*/
 @media screen 
@@ -35,6 +40,11 @@
     color: white;
     display: block;
     transition: 0.3s;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
 }
 
@@ -60,6 +70,11 @@
     color: white;
     display: block;
     transition: 0.3s;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
 }
  /*responsive for tablet big*/
@@ -110,6 +125,11 @@
     display: block;
     transition: 0.3s;
 }
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
 }
 
 /*LARGE MOBILE PHONE*/
@@ -157,6 +177,11 @@
     background-repeat: no-repeat;
     background-size:cover;
 }
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
 
 }
 /*responsive for medium mobile phone*/
@@ -203,5 +228,10 @@
     color: white;
     display: block;
     transition: 0.3s;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
 }

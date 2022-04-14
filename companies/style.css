@@ -23,17 +23,26 @@ body, html {
 
 .pimg1 {
   background-image: url(../companies/img/marco1.jpg);
-  min-height: 100%;
+  min-height: 100vh;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .pimg2 {
   background-image: url(../companies/img/marco2.jpg);;
   min-height: 800px;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .pimg3 {
   background-image: url(../companies/img/marco3.jpg);;
   min-height: 800px;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .section {
