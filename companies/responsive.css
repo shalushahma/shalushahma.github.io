@@ -146,6 +146,10 @@
  font-size: 12px;
  line-height: normal;
 }
+.pimg1 {
+    background-image: url(../companies/img/marco4.png);
+    min-height: 100%;
+}
 .firstsection h2{
  font-size: 20px;
  line-height: normal;
