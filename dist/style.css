@@ -68,17 +68,41 @@ html, body {
   height: 130vh;
 }
 .background:nth-child(3) {
-  background-color: yellow;
+  background-color: grey;
+  height: 130vh;
 }
+.background:nth-child(4) {
+ background-image:  url(../dist/img/sec2background.png);
+  background background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 130vh;
+}
+.background:nth-child(5) {
+  background-color: green;
+  height: 130vh;
+}
+.background:nth-child(6) {
+  background-color: blue;
+  height: 130vh;
+}
+
 /* Set stacking context of slides */
 .background:nth-child(1) {
-  z-index: 3;
+  z-index: 5;
 }
 
 .background:nth-child(2) {
-  z-index: 2;
+  z-index: 4;
 }
 
+.background:nth-child(3) {
+  z-index: 3;
+}
+.background:nth-child(3) {
+  z-index: 2;
+}
 .background:nth-child(3) {
   z-index: 1;
 }
