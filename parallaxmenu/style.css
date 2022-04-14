@@ -21,7 +21,7 @@ header {
     place-items: center;
     width: 100%;
     display: flex;
-    background-color: #0055A6;
+    background-color: #0059A3;
 }
 .mobile-container {
     max-width: 480px;
@@ -186,7 +186,7 @@ img.sec1image1 {
 .slider {
   
     margin-top: -242px;
-    background-color: #0055A6;
+    background-color: #0059A3;
 }
 
 @keyframes scroll {
