@@ -2,7 +2,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-size: 16px;
-  font-family: "lato", sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
@@ -22,18 +22,18 @@ body, html {
 }
 
 .pimg1 {
-  background-image: url(https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?cs=srgb&dl=architecture-arriere-plans-de-bureau-batiments-1519088.jpg&fm=jpg);
+  background-image: url(../companies/img/marco1.jpg);
   min-height: 100%;
 }
 
 .pimg2 {
-  background-image: url(https://images.pexels.com/photos/2129814/pexels-photo-2129814.png?cs=srgb&dl=activites-affaires-architecture-2129814.jpg&fm=jpg);
-  min-height: 400px;
+  background-image: url(../companies/img/marco2.jpg);;
+  min-height: 800px;
 }
 
 .pimg3 {
-  background-image: url(https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?cs=srgb&dl=aerien-architecture-batiments-466685.jpg&fm=jpg);
-  min-height: 400px;
+  background-image: url(../companies/img/marco3.jpg);;
+  min-height: 800px;
 }
 
 .section {
@@ -45,7 +45,14 @@ body, html {
   background-color: #f4f4f4;
   color: #666;
 }
-
+.firstsection p{
+ font-size: 18px;
+ line-height: normal;
+}
+.firstsection h2{
+ font-size: 28px;
+ line-height: normal;
+}
 .section-dark {
   background-color: #282e34;
   color: #ddd;
@@ -109,17 +116,18 @@ body, html {
 }
 
 .overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  /* color: #818181; */
-  color: red;
-  display: block;
-  transition: 0.3s;
+    padding: 23px;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 700;
+    /* color: #818181; */
+    color: white;
+    display: block;
+    transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: blue;
+  color: #F8931F;
 }
 
 .overlay .closebtn {
@@ -146,9 +154,9 @@ body, html {
 }
 
 .span1 {
-  /* background-color: black; */
-  margin-top: 25px;
-  right: 25px;
-  position: fixed;
-  color: red;
+    /* background-color: black; */
+    margin-top: 30px;
+    right: 30px;
+    position: fixed;
+    color: black;
 }

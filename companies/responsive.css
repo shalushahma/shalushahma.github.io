@@ -1,0 +1,163 @@
+/*responsive for extra large screen*/
+@media screen 
+  and (min-device-width: 1601px) 
+  /*and (max-device-width: 1900px) */
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.firstsection p{
+ font-size: 18px;
+ line-height: normal;
+}
+.firstsection h2{
+ font-size: 28px;
+ line-height: normal;
+}
+}
+/*responsive for extra large laptop*/
+@media screen 
+  and (min-device-width: 1201px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.firstsection p{
+ font-size: 18px;
+ line-height: normal;
+}
+.firstsection h2{
+ font-size: 28px;
+ line-height: normal;
+}
+.overlay a {
+    padding: 23px;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 700;
+    /* color: #818181; */
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+}
+
+/*responsive for small laptop screen*/
+@media screen 
+  and (min-device-width: 991px) 
+  and (max-device-width: 1200px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+.firstsection p{
+ font-size: 18px;
+ line-height: normal;
+}
+.firstsection h2{
+ font-size: 28px;
+ line-height: normal;
+}
+ .overlay a {
+    padding: 23px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    /* color: #818181; */
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+}
+ /*responsive for tablet big*/
+@media screen 
+  and (min-device-width: 767px) 
+  and (max-device-width: 990px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+.firstsection p{
+ font-size: 16px;
+ line-height: normal;
+}
+.firstsection h2{
+ font-size: 26px;
+ line-height: normal;
+}
+ .overlay a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+    /* color: #818181; */
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+}
+
+ /*responsive for tablet small*/
+@media screen 
+  and (min-device-width: 581px) 
+  and (max-device-width: 766px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+.firstsection p{
+ font-size: 14px;
+ line-height: normal;
+}
+.firstsection h2{
+ font-size: 25px;
+ line-height: normal;
+}
+.overlay a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+    /* color: #818181; */
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+}
+
+/*LARGE MOBILE PHONE*/
+@media screen 
+  and (min-device-width: 436px) 
+  and (max-device-width: 580px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+.firstsection p{
+ font-size: 13px;
+ line-height: normal;
+}
+.firstsection h2{
+ font-size: 20px;
+ line-height: normal;
+}
+.overlay a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 500;
+    /* color: #818181; */
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+}
+/*responsive for medium mobile phone*/
+@media screen 
+  and (min-device-width: 280px) 
+  and (max-device-width: 435px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+.firstsection p{
+ font-size: 12px;
+ line-height: normal;
+}
+.firstsection h2{
+ font-size: 20px;
+ line-height: normal;
+}
+.overlay a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 500;
+    /* color: #818181; */
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+}
