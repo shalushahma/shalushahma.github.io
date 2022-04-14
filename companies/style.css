@@ -79,12 +79,12 @@ body, html {
   background-color: transparent;
 }
 
-@@media (max-width:568px) {
+/*@media (max-width:568px) {
   .pimg1, .pimg2, .pimg3 {
     background-attachment: scroll;
   }
 }
-
+*/
 @media screen and (max-width:576px) {
   .ptext {
     width: 100%;
