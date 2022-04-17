@@ -2,11 +2,13 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Split Slick Slideshow</title>
+  <title>Awalslider</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'>
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Condensed:100'><link rel="stylesheet" href="./style.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Condensed:100'>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./responsive.css">
 
 </head>
 <body>
@@ -19,12 +21,40 @@ Twitter: https://twitter.com/supahfunk
 Codepen: https://codepen.io/supah/
 
 -->
+
+<header>
+      <div class="mobile-container">
+   
+    <!-- <a href="index.html" class="logo"><img src="img/awallogo.png"></a> -->
+     <a href="#home" class="logo"><img src="img/awallogo.png"></a>
+<span class="span1" style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+
+    <div id="myNav" class="overlay">
+  <a href="index.html" class="logo1"><img src="img/awallogoblue.png"></a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="https://shalushahma.github.io/dist/index.html" target="_blank">About Us</a>
+        <a href="https://shalushahma.github.io/dist/index.html" target="_blank">Services</a>
+        <a href="https://shalushahma.github.io/dist/index.html" target="_blank">Clients</a>
+        <a href="https://shalushahma.github.io/companies/index.html" target="_blank">Companies</a>
+        <a href="https://shalushahma.github.io/dist/index.html" target="_blank">Contact</a>
+      </div>
+    </div>
+  </div>
+</header>
+
 <div class="split-slideshow">
   <div class="slideshow">
-    <div class="slider">
+    <div class="slider slide-container">
+      <section class="section1">
       <div class="item">
-        <img src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-2.jpg" />
+        <h1>
+          awal </h1>
+        <img src="img/sec1image1.jpg" />
+        
       </div>
+      </section>
       <div class="item">
         <img src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-3.jpg" />
       </div>
@@ -42,16 +72,16 @@ Codepen: https://codepen.io/supah/
       </div>
     </div>
   </div>
-  <div class="slideshow-text">
-    <div class="item">Canyon</div>
+  <!-- <div class="slideshow-text">
+    <div class="item">abcd</div>
     <div class="item">Desert</div>
     <div class="item">Erosion</div>
     <div class="item">Shape</div>
-  </div>
+  </div> -->
 </div>
 
 <a class="the-most" target="_blank" href="https://codepen.io/2017/popular/pens/10/">
-  <img src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/themost-2017.png">
+  <!-- <img src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/themost-2017.png"> -->
 </a>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>

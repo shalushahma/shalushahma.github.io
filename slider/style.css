@@ -6,6 +6,119 @@ html {
   overflow: hidden;
 }
 
+/*header*/
+/* start header */
+header {
+    z-index: 9999;
+    position: fixed;
+    margin-top: 0;
+    padding-top: 0;
+    top: 0;
+    height: 90px;
+    place-items: center;
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+}
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 90px;
+    color: white;
+    border-radius: 15px;
+}
+/* nav */
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: #fff;
+    overflow-y: hidden;
+    transition: 0.5s;
+    /*opacity: 96%;*/
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 45px;
+    /* color: #818181; */
+    color: #0055A6;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+  color: #EC6C00;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 18px;
+    right: 16px;
+    font-size: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.span1 {
+  /* background-color: black; */
+  margin-top: 25px;
+  right: 25px;
+  position: fixed;
+  color: #ffff;
+}
+.span2{
+  /* background-color: black; */
+  margin-top: -53px;
+  right: 25px;
+/*  position: fixed;*/
+  color: #ffff;
+}
+/*code*/
+/*.background{
+  position: absolute;
+}*/
+.logo img {
+    height: 54px;
+   /* margin: 19px 13px 0px 114px;*/
+    position: fixed;
+}
+.logo1 img {
+    height: 58px;
+    margin: 33px 13px 0px 42px;
+    position:sticky;
+}
+/*header end*/
+.sec1image{
+
+}
 .slideshow {
   position: absolute;
   z-index: 1;
@@ -23,9 +136,17 @@ html {
 .slideshow .slider * {
   outline: none;
 }
+.item1
+{height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  background-image: url(../slider/img/sec1image.jpg);
+}
 .slideshow .slider .item {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   overflow: hidden;
   border: none;
@@ -129,4 +250,9 @@ html {
 }
 .the-most img {
   max-width: 100%;
+}
+.section1 h1 {
+    margin: 116px;
+    color: white;
+    font-size: 70px;
 }

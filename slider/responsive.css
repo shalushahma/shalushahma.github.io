@@ -1,0 +1,254 @@
+/*responsive for extra large screen*/
+@media screen 
+  and (min-device-width: 1601px) 
+  /*and (max-device-width: 1900px) */
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.logo img {
+    position: fixed;
+    height: 47px;
+    left: 103px;
+    margin-top: 25px;
+}
+.span1 {
+    /* background-color: black; */
+    margin-top: 13px;
+    right: 87px;
+    position: fixed;
+    color: #ffff;
+}
+.logo1 img {
+    height: 58px;
+    margin: 33px 13px 0px 114px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    /* color: #818181; */
+    color: #0055A6;
+    display: block;
+    transition: 0.3s;
+}
+}
+/*responsive for extra large laptop*/
+@media screen 
+  and (min-device-width: 1201px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.logo img {
+    position: fixed;
+    height: 48px;
+    left: 69px;
+    margin-top: 25px;
+}
+.span1 {
+    /* background-color: black; */
+    margin-top: 18px;
+    right: 87px;
+    position: fixed;
+    color: #ffff;
+}
+.logo1 img {
+    height: 58px;
+    margin: 25px 13px 14px 45px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 700;
+    /* color: #818181; */
+    color: #0055A6;
+    display: block;
+    transition: 0.3s;
+}
+}
+/*responsive for small laptop screen*/
+@media screen 
+  and (min-device-width: 991px) 
+  and (max-device-width: 1200px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+
+ .logo img {
+    position: fixed;
+    height: 41px;
+    left: 52px;
+    margin-top: 25px;
+}
+.span1 {
+    /* background-color: black; */
+    margin-top: 15px;
+    right: 61px;
+    position: fixed;
+    color: #ffff;
+}
+.logo1 img {
+    height: 58px;
+    margin: 27px 13px 0px 47px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    /* color: #818181; */
+    color: #0055A6;
+    display: block;
+    transition: 0.3s;
+}
+}
+/*responsive for tablet big*/
+@media screen 
+  and (min-device-width: 767px) 
+  and (max-device-width: 990px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+
+ .logo img {
+    position: fixed;
+    height: 44px;
+    left: 50px;
+    margin-top: 31px;
+}
+.span1 {
+    /* background-color: black; */
+    margin-top: 23px;
+    right: 51px;
+    position: fixed;
+    color: #ffff;
+}
+ .logo1 img {
+    height: 49px;
+    margin: 30px 13px 2px 41px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    /* color: #818181; */
+    color: #0055A6;
+    display: block;
+    transition: 0.3s;
+}
+}
+/*responsive for tablet small*/
+@media screen 
+  and (min-device-width: 581px) 
+  and (max-device-width: 766px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+.logo img {
+    position: fixed;
+    height: 42px;
+    left: 40px;
+    margin-top: 22px;
+}
+.logo1 img {
+    height: 48px;
+    margin: 37px 13px -4px 31px;
+}
+.span1 {
+    /* background-color: black; */
+    margin-top: 13px;
+    right: 25px;
+    position: fixed;
+    color: #ffff;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 700;
+    /* color: #818181; */
+    color: #0055A6;
+    display: block;
+    transition: 0.3s;
+}
+}
+
+/*LARGE MOBILE PHONE*/
+@media screen 
+  and (min-device-width: 436px) 
+  and (max-device-width: 580px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 77px;
+    color: white;
+    border-radius: 15px;
+}
+.span1 {
+    /* background-color: black; */
+    margin-top: 13px;
+    right: 25px;
+    position: fixed;
+    color: #ffff;
+}
+.logo img {
+    height: 34px;
+    position: fixed;
+    left: 30px;
+    margin-top: 23px;
+}
+.logo1 img {
+    height: 32px;
+    margin: 37px 13px -4px 21px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    /* color: #818181; */
+    color: #0055A6;
+    display: block;
+    transition: 0.3s;
+}
+}
+/*responsive for medium mobile phone*/
+@media screen 
+  and (min-device-width: 280px) 
+  and (max-device-width: 435px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 77px;
+    color: white;
+    border-radius: 15px;
+}
+.span1 {
+    /* background-color: black; */
+    margin-top: 14px;
+    right: 29px;
+    position: fixed;
+    color: #ffff;
+}
+.logo img {
+    height: 34px;
+    position: fixed;
+    left: 30px;
+    margin-top: 23px;
+}
+
+.logo1 img {
+    height: 37px;
+    margin: 43px 13px -4px 27px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    /* color: #818181; */
+    color: #0055A6;
+    display: block;
+    transition: 0.3s;
+}
+}
