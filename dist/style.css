@@ -144,7 +144,7 @@ a {
   float: left;
   height: 100%;
   width: 60%;
-  padding: 3rem 3rem 3rem 5rem;
+  padding: 3rem 3rem 3rem 4rem;
   display: table;
 }
 .left > div {
@@ -254,12 +254,12 @@ a.current_dot {
 @media screen and (max-width: 700px) {
   .left {
     width: 100%;
-    height: 40%;
+    height: 44%;
   }
   .slider {
     width: 100%;
-    height: 60%;
-  }
+    height: 56%;
+}
 }
 /* section one slider end */
 /* about section starts */
@@ -278,7 +278,7 @@ a.current_dot {
     
     letter-spacing: -0.4px;
     line-height: 16rem;
-    color: #fafafa;
+    color:  #0059A3;
 }
 .years{
   padding-left: 50px;
@@ -292,10 +292,10 @@ a.current_dot {
     
 }
 .content__text{
-   font-size: 20px;
+   font-size: 22px;
   line-height: 1.5;
   font-weight: 300;
-  color: #dfdfdf;
+  color:  #0059A3;
 }
 
 
@@ -327,7 +327,7 @@ a.current_dot {
 .content__title {
     font-size: 20px;
     font-weight: 400;
-    color:  #949494;
+    color:   #0059A3;
 }
 .content__text-box {
   display: flex;
@@ -360,7 +360,7 @@ a.current_dot {
 .content__text {
     font-size: 20px;
     width: 320px;
-    color: #949494;
+    color:  #0059A3;
     font-weight: 400;
 }
 @media only screen and (max-width: 580px) {
@@ -418,11 +418,11 @@ a.current_dot {
   height: 130vh;
 }
 .background:nth-child(3) {
-  background-color: #0059A3;
+  background-image: url(../dist/img/sec2background.png);
   height: 130vh;
 }
 .background:nth-child(4) {
- background-image:  url(../dist/img/sec2background.png);
+ background-color:  white;
   background background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

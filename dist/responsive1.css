@@ -175,6 +175,10 @@
   font-size: 20px;
  MARGIN: 0PX 103PX 0PX 87PX;
 }
+.content__text {
+    font-size: 20px;
+    
+}
 }
 /*responsive for tablet big*/
 @media screen 
@@ -231,9 +235,27 @@
   font-size: 18px;
  MARGIN: 0PX 103PX 0PX 31PX;
 }
+.slider {
+  float: right;
+  position: relative;
+  width: 40%;
+  height: 100%;
+}
+.left {
+  float: left;
+  height: 100%;
+  width: 60%;
+  padding: 3rem 3rem 3rem 4rem;
+  display: table;
+}
 .content__text {
-    font-size: 17px;
+    font-size: 18px;
     width: 269px;
+}
+.content__title {
+    font-size: 18px;
+    font-weight: 400;
+    color:   #0059A3;
 }
 .page-title {
     padding-left: 50px;
@@ -320,8 +342,13 @@
  MARGIN: 0PX 85PX 0PX 19PX;
 }
 .content__text {
-    font-size: 17px;
-    width: 269px;
+    font-size: 18px;
+   width:100%;
+}
+.content__title {
+    font-size: 18px;
+    font-weight: 400;
+    color:   #0059A3;
 }
 .page-title {
     padding-left: 50px;
@@ -331,7 +358,7 @@
     font-weight: 700;
     letter-spacing: -0.4px;
     line-height: 16rem;
-    color: #fafafa;
+    color:  #0059A3;
 }
 .years {
     padding-left: 50px;
@@ -416,8 +443,13 @@
  MARGIN: 0PX 85PX 0PX 19PX;
 }
 .content__text {
-    font-size: 17px;
-    width:342px;
+    font-size: 18px;
+    width:100%;
+}
+.content__title {
+    font-size: 18px;
+    font-weight: 400;
+    color:   #0059A3;
 }
 .page-title {
     padding-left: 50px;
@@ -427,7 +459,7 @@
     font-weight: 700;
     letter-spacing: -0.4px;
     line-height: 16rem;
-    color: #fafafa;
+    color:  #0059A3;
 }
 .years {
     padding-left: 50px;
@@ -508,12 +540,17 @@
 }
 .left h1 + p {
     color: #949494;
-    font-size: 12px;
+    font-size: 14px;
     MARGIN: 0PX 25PX 0PX 19PX;
 }
+.content__title {
+    font-size: 14px;
+    font-weight: 400;
+    color:   #0059A3;
+}
 .content__text {
-    font-size: 17px;
-    width:307px;
+    font-size: 14px;
+    width:100%;
 }
 .page-title {
     padding-left: 50px;
@@ -523,7 +560,7 @@
     font-weight: 600;
     letter-spacing: -0.4px;
     line-height: 16rem;
-    color: #fafafa;
+    color: #0059A3;
 }
 .years {
     padding-left: 50px;
