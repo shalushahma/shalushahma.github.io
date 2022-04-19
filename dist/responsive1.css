@@ -36,7 +36,7 @@
     font-size: 51px;
     FONT-WEIGHT: 800;
     LINE-HEIGHT: initial;
-    MARGIN: 0PX 103PX 20PX 87PX;
+   
 }
 .left span {
   color: #EC6C00;
@@ -46,12 +46,12 @@
   display: inline-block;
   text-transform: uppercase;
   font-family: sans-serif;
-  margin: 0 0px 22px 87px;
+  
 }
 .left h1 + p {
   color: #949494;
   font-size: 22px;
- MARGIN: 0PX 103PX 0PX 87PX;
+ 
 }
 }
 /*responsive for extra large laptop*/
@@ -92,7 +92,7 @@
     font-size: 51px;
     FONT-WEIGHT: 800;
     LINE-HEIGHT: initial;
-    MARGIN: 0PX 103PX 20PX 87PX;
+    
 }
 .left span {
   color: #EC6C00;
@@ -102,12 +102,12 @@
   display: inline-block;
   text-transform: uppercase;
   font-family: sans-serif;
-  margin: 0 0px 22px 87px;
+  
 }
 .left h1 + p {
   color: #949494;
   font-size: 22px;
- MARGIN: 0PX 103PX 0PX 87PX;
+ 
 }
 .years {
     padding-left: 50px;
@@ -158,7 +158,7 @@
     font-size: 39px;
     FONT-WEIGHT: 700;
     LINE-HEIGHT: initial;
-    MARGIN: 0PX 103PX 20PX 87PX;
+    
 }
 .left span {
   color: #EC6C00;
@@ -168,14 +168,13 @@
   display: inline-block;
   text-transform: uppercase;
   font-family: sans-serif;
-  margin: 0 0px 22px 87px;
+  
 }
 .left h1 + p {
   color: #949494;
   font-size: 20px;
- MARGIN: 0PX 103PX 0PX 87PX;
 }
-.content__text {
+.content__text{
     font-size: 20px;
     
 }
@@ -201,7 +200,7 @@
 }
  .logo1 img {
     height: 49px;
-    margin: 30px 13px 2px 41px;
+   
 }
 .overlay a {
     padding: 8px;
@@ -218,8 +217,7 @@
     font-size: 28px;
     FONT-WEIGHT: 700;
     LINE-HEIGHT: initial;
-    MARGIN: -13PX 103PX 20PX 31PX;
-}
+   }
 .left span {
   color: #EC6C00;
   font-size: 14px;
@@ -228,12 +226,12 @@
   display: inline-block;
   text-transform: uppercase;
   font-family: sans-serif;
-  margin: 0 0px 22px 31px;
+ 
 }
 .left h1 + p {
   color: #949494;
   font-size: 18px;
- MARGIN: 0PX 103PX 0PX 31PX;
+ 
 }
 .slider {
   float: right;
@@ -323,7 +321,7 @@
     font-size: 28px;
     FONT-WEIGHT: 700;
     LINE-HEIGHT: initial;
-    MARGIN: -13PX 103PX 20PX 19PX;
+    
 }
 .left span {
   color: #EC6C00;
@@ -333,13 +331,13 @@
   display: inline-block;
   text-transform: uppercase;
   font-family: sans-serif;
-  margin: 80px 0px 22px 19px;
+ 
 }
 
 .left h1 + p {
   color: #949494;
   font-size: 18px;
- MARGIN: 0PX 85PX 0PX 19PX;
+ 
 }
 .content__text {
     font-size: 18px;
@@ -425,7 +423,7 @@
     font-size: 28px;
     FONT-WEIGHT: 700;
     LINE-HEIGHT: initial;
-    MARGIN: -13PX 103PX 20PX 19PX;
+   
 }
 .left span {
   color: #EC6C00;
@@ -435,12 +433,12 @@
   display: inline-block;
   text-transform: uppercase;
   font-family: sans-serif;
-  margin: 80px 0px 22px 19px;
+  
 }
 .left h1 + p {
   color: #949494;
   font-size: 18px;
- MARGIN: 0PX 85PX 0PX 19PX;
+ 
 }
 .content__text {
     font-size: 18px;
@@ -526,22 +524,22 @@
     font-size: 25px;
     FONT-WEIGHT: 600;
     LINE-HEIGHT: initial;
-    MARGIN: -13PX 68PX 20PX 17PX;
+   
 }
 .left span {
-  color: #EC6C00;
-  font-size: 12px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  display: inline-block;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  margin: 80px 0px 22px 17px;
+    color: #EC6C00;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: sans-serif;
+   
 }
 .left h1 + p {
     color: #949494;
     font-size: 14px;
-    MARGIN: 0PX 25PX 0PX 19PX;
+   
 }
 .content__title {
     font-size: 14px;
@@ -553,7 +551,7 @@
     width:100%;
 }
 .page-title {
-    padding-left: 50px;
+    padding-left: 35px;
     margin-top: -50px;
     margin-bottom: 2px;
     font-size: 25px;
@@ -563,8 +561,8 @@
     color: #0059A3;
 }
 .years {
-    padding-left: 50px;
-    margin-top: 350px;
+    padding-left: 35px;
+    margin-top: 158px;
     margin-bottom: 2px;
     color: #EC6C00;
     font-size: 12px;
@@ -574,7 +572,7 @@
 }
 .content {
     margin-top: -55px;
-    padding: 50px;
+    padding: 35px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
