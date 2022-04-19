@@ -359,8 +359,8 @@ a.current_dot {
 }
 .content__text {
     font-size: 20px;
-    width: 320px;
-    color:  #0059A3;
+    width: 560px;
+    color: #0059A3;
     font-weight: 400;
 }
 @media only screen and (max-width: 580px) {
@@ -370,6 +370,17 @@ a.current_dot {
 }
 
 /*about section ends*/
+
+/* subsidiaries section starts */
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/* subsidiaries section ends */
 .container-fluid{
   height: 130vh;
   width: 100%;
