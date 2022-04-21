@@ -63,21 +63,16 @@
     flex: 0 0 auto;
     width: 100%;
 }
-.section5 h3{
+.heading h3{
     text-align: center;
     color: #FB6D59;
     padding: 83px 70px 13px 70px;
 }
-.section5 h2{
-    text-align: center;
-    color:#2D3645;
-    padding: 0px 70px 38px 70px;
-}
 
 .boxwhite {
-    margin: 12px;
+    margin: 10px;
     width: 97%;
-    height: 39vh;
+    height: 26vh;
     background-color: #fff;
     border-radius: 21px;
     box-shadow: 7px 10px 14px -12px rgb(0 0 0 / 70%);
@@ -96,9 +91,9 @@
     padding: 0px 17px 1px 21px;
 }
 .boxwhite img {
-    width: 359px;
-    margin: 2px 19px 2px 18px;
-  }
+    width: 239px;
+    margin: 1px 19px 2px 166px;
+}
 .readmorebtn {
     color: #EC6C00;
     background-color: transparent;
@@ -183,8 +178,8 @@
     margin-top: 182px;
 }
 .boxwhite img {
-    width: 301px;
-    margin: 2px 19px 2px 18px;
+    width: 176px;
+    margin: 1px 19px 2px 196px;
 }
 
 }
@@ -264,7 +259,7 @@
     text-transform: uppercase;
 }
 .boxwhite img {
-    width: 250px;
+    width: 169px;
     margin: 2px 19px 2px 18px;
 }
 }
@@ -372,8 +367,8 @@
     align-items: flex-start;
 }
 .boxwhite img {
-    width: 167px;
-    margin: 2px 19px 2px 18px;
+    width: 126px;
+    margin: 2px 19px 2px 103px;
 }
 }
 /*responsive for tablet small*/
@@ -381,6 +376,7 @@
   and (min-device-width: 581px) 
   and (max-device-width: 766px) 
   and (-webkit-min-device-pixel-ratio: 1){
+
 .logo img {
     position: fixed;
     height: 42px;
@@ -468,14 +464,15 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .boxwhite img {
-    width: 0;
-    margin: 0;
+    width: 178px;
+    margin: 14px;
 }
 .boxwhite {
     margin: 5px;
     width: 97%;
-    height: 13vh;
+    height: 12vh;
     background-color: #fff;
     border-radius: 21px;
     box-shadow: 7px 10px 14px -12px rgb(0 0 0 / 70%);
@@ -487,11 +484,12 @@
     font-weight: 700;
     text-align: left;
     padding: 1px 50px 6px 21px;
+    margin: -110px 0px 0px 207px;
 }
 .boxwhite p {
     font-size: 9px;
     text-align: left;
-    padding: 0px 17px 1px 21px;
+    padding: 0px 17px 1px 229px;
 }
 .readmorebtn {
     color: #EC6C00;
@@ -502,7 +500,7 @@
     text-align: left;
     border: transparent;
     border-radius: 13px;
-    margin: -12px 104px 1px 21px;
+    margin: -12px 104px 1px 229px;
 }
 }
 
@@ -606,13 +604,13 @@
     align-items: flex-start;
 }
 .boxwhite img {
-    width: 0;
-    margin: 0;
+    width: 178px;
+    margin: 14px;
 }
 .boxwhite {
     margin: 5px;
     width: 97%;
-    height: 13vh;
+    height: 12vh;
     background-color: #fff;
     border-radius: 21px;
     box-shadow: 7px 10px 14px -12px rgb(0 0 0 / 70%);
@@ -620,26 +618,27 @@
     -moz-box-shadow: 7px 10px 14px -12px rgba(0,0,0,0.7);
 }
 .boxwhite h4 {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 700;
     text-align: left;
     padding: 1px 50px 6px 21px;
+    margin: -110px 0px 0px 185px;
 }
 .boxwhite p {
-    font-size: 9px;
+    font-size: 8px;
     text-align: left;
-    padding: 0px 17px 1px 21px;
+    padding: 0px 17px 1px 206px;
 }
 .readmorebtn {
-    color:#EC6C00;
+    color: #EC6C00;
     background-color: transparent;
     width: 167px;
     height: 35px;
     font-size: 10px;
     text-align: left;
     border: transparent;
-    border-radius: 13px;
-    margin: -12px 104px 1px 21px;
+    border-radius: 12px;
+    margin: -12px 104px 1px 206px;
 }
 }
 /*responsive for medium mobile phone*/
@@ -742,13 +741,15 @@
     align-items: flex-start;
 }
 .boxwhite img {
-    width: 0;
-    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .boxwhite {
     margin: 5px;
     width: 97%;
-    height: 13vh;
+    height: 12vh;
     background-color: #fff;
     border-radius: 21px;
     box-shadow: 7px 10px 14px -12px rgb(0 0 0 / 70%);
@@ -756,25 +757,25 @@
     -moz-box-shadow: 7px 10px 14px -12px rgba(0,0,0,0.7);
 }
 .boxwhite h4 {
-    font-size: 11px;
-    font-weight: 700;
-    text-align: left;
-    padding: 1px 50px 6px 21px;
+    font-size: 0px;
+    
+    padding: 0;
+    margin: 0;
 }
 .boxwhite p {
-    font-size: 8px;
+    font-size: 0px;
     text-align: left;
-    padding: 0px 17px 1px 21px;
+    padding: 0;
 }
 .readmorebtn {
     color: #EC6C00;
     background-color: transparent;
     width: 167px;
     height: 35px;
-    font-size: 10px;
+    font-size: 0px;
     text-align: left;
     border: transparent;
-    border-radius: 13px;
-    margin: -12px 104px 1px 21px;
+    border-radius: 12px;
+    margin: 0;
 }
 }

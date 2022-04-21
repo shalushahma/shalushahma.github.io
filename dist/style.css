@@ -528,23 +528,19 @@ a.current_dot {
     flex: 0 0 auto;
     width: 100%;
 }
-.section5 h3 {
+.heading h3 {
     text-align: center;
     color: #FB6D59;
     font-size: 13px;
     font-weight: 500;
     padding: 61px 70px 13px 70px;
 }
-.section5 h2{
-    text-align: center;
-    color:#2D3645;
-    padding: 0px 70px 38px 70px;
-}
+
 
 .boxwhite {
-    margin: 12px;
+    margin: 10px;
     width: 97%;
-    height: 39vh;
+    height: 26vh;
     background-color: #fff;
     border-radius: 21px;
     box-shadow: 7px 10px 14px -12px rgb(0 0 0 / 70%);
@@ -563,9 +559,9 @@ a.current_dot {
     padding: 0px 17px 1px 21px;
 }
 .boxwhite img {
-    width: 359px;
-    margin: 2px 19px 2px 18px;
-  }
+    width: 239px;
+    margin: 1px 19px 2px 166px;
+}
 .readmorebtn {
     color: #EC6C00;
     background-color: transparent;
