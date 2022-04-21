@@ -528,7 +528,7 @@ a.current_dot {
     flex: 0 0 auto;
     width: 100%;
 }
-.heading h3 {
+.partners{
     text-align: center;
     color: #FB6D59;
     font-size: 13px;
@@ -561,6 +561,11 @@ a.current_dot {
 .boxwhite img {
     width: 239px;
     margin: 1px 19px 2px 166px;
+}
+.boxwhite img:hover {
+  -ms-transform: scale(1.02); /* IE 9 */
+  -webkit-transform: scale(1.02); /* Safari 3-8 */
+  transform: scale(1.02); 
 }
 .readmorebtn {
     color: #EC6C00;
