@@ -744,14 +744,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 36%;
 }
 .boxwhite {
     margin: 5px;
     width: 97%;
-    height: 12vh;
+    height: 9vh;
     background-color: #fff;
-    border-radius: 21px;
+    border-radius: 5px;
     box-shadow: 7px 10px 14px -12px rgb(0 0 0 / 70%);
     -webkit-box-shadow: 7px 10px 14px -12px rgb(0 0 0 / 70%);
     -moz-box-shadow: 7px 10px 14px -12px rgba(0,0,0,0.7);
