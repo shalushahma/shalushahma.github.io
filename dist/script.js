@@ -197,3 +197,6 @@ function previousItem() {
 
   const slider = new SliderClip(document.querySelector('.slider'));
 }
+// slidersection3 script
+
+// slider section3 script end

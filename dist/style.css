@@ -17,7 +17,7 @@ header {
     margin-top: 0;
     padding-top: 0;
     top: 0;
-    height: 90px;
+    height: 80px;
     place-items: center;
     width: 100%;
     display: flex;
@@ -282,7 +282,7 @@ a.current_dot {
 }
 .years{
   padding-left: 50px;
-   margin-top: 350px;
+   margin-top: 245px;
     margin-bottom: 2px;
     color: #EC6C00;
     letter-spacing: 2PX;
@@ -371,9 +371,7 @@ a.current_dot {
 
 /*about section ends*/
 
-/* subsidiaries section starts */
 
-/* subsidiaries section ends */
 .container-fluid{
   height: 130vh;
   width: 100%;
@@ -426,7 +424,7 @@ a.current_dot {
   height: 130vh;
 }
 .background:nth-child(4) {
- background-color:  white;
+ background-color: #0059A3;
   background background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -441,30 +439,42 @@ a.current_dot {
   background-color: blue;
   height: 130vh;
 }
-
+.background:nth-child(7) {
+  background-color: blue;
+  height: 130vh;
+}
+.background:nth-child(8) {
+  background-color: blue;
+  height: 130vh;
+}
 /* Set stacking context of slides */
 
 .background:nth-child(1) {
-  z-index: 6;
+  z-index: 8;
 }
 .background:nth-child(2) {
-  z-index: 5;
+  z-index: 7;
 }
 
 .background:nth-child(3) {
-  z-index: 4;
+  z-index: 6;
 }
 
 .background:nth-child(4) {
-  z-index: 3;
+  z-index: 5;
 }
 .background:nth-child(5) {
-  z-index: 2;
+  z-index: 4;
 }
 .background:nth-child(6) {
+  z-index: 3;
+}
+.background:nth-child(7) {
+  z-index: 2;
+}
+.background:nth-child(8) {
   z-index: 1;
 }
-
 /*.content-wrapper {
   height: 130vh;
   display: flex;
@@ -511,77 +521,61 @@ a.current_dot {
 .background.down-scroll + .background:not(.down-scroll) .content-wrapper {
   transform: translateY(15vh);
 }
-/*code starts*/
 
-img.dots1{
-    width: 75px;
-    margin: 114px 0px 42px 150px;
+/*section3  starts*/
+.section5 .col-12 {
+    margin-top: 42px;
+    flex: 0 0 auto;
+    width: 100%;
 }
-.first h4 {
-    color: #F8931F;
-    font-size: 20px;
-    margin: 11px 11px 36px 150px;
+.section5 h3 {
+    text-align: center;
+    color: #FB6D59;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 61px 70px 13px 70px;
 }
-.first h2 {
-    color: #ffff;
-    font-size: 50px;
-    font-family: poppins;
-    margin: -11px -1px 36px 150px;
-}
-
-.exploremorebt {
-    
-    background: #F8931F;
-    color: #ffff;
-    border: none;
-    width: 171px;
-    height: 50px;
-    border-radius: 15px;
-    margin: 0px 0px 0px 150px;
-}
-.first h3{
-    color: #ffff;
-    font-size: 23px;
-    font-weight: 200;
-    line-height: initial;
-    margin: -11px -1px 36px 150px;
-}
-img.sec1image{
-    height: 509px;
-    margin: -189px 26px 14px 67px;
+.section5 h2{
+    text-align: center;
+    color:#2D3645;
+    padding: 0px 70px 38px 70px;
 }
 
-img.sec1image1 {
-    height: 437px;
-    margin: 73px -6px -207px 112px;
+.boxwhite {
+    margin: 12px;
+    width: 97%;
+    height: 39vh;
+    background-color: #fff;
+    border-radius: 21px;
+    box-shadow: 7px 10px 14px -12px rgb(0 0 0 / 70%);
+    -webkit-box-shadow: 7px 10px 14px -12px rgb(0 0 0 / 70%);
+    -moz-box-shadow: 7px 10px 14px -12px rgba(0,0,0,0.7);
+}
+.boxwhite h4 {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    padding: 6px 50px 6px 21px;
+}
+.boxwhite p {
+    font-size: 12px;
+    text-align: left;
+    padding: 0px 17px 1px 21px;
+}
+.boxwhite img {
+    width: 359px;
+    margin: 2px 19px 2px 18px;
+  }
+.readmorebtn {
+    color: #EC6C00;
+    background-color: transparent;
+    width: 167px;
+    height: 35px;
+    font-size: 14px;
+    text-align: left;
+    border: transparent;
+    border-radius: 13px;
+    margin: 1px 104px 32px 21px;
 }
 
-img.sec2image {
-    height: 572px;
-    margin: -48px 0px 0px 105px;
-}
-.second h4 {
-    color: #F8931F;
-    font-size: 20px;
-    margin: 92px 11px 25px 45px;
-}
-.second h2 {
-    color: #323232;
-    font-size: 50px;
-    margin: -11px 352px 36px 45px;
-}
-.second h3 {
-    color: #323232;
-    font-size: 20px;
-    font-weight: 200;
-    margin: -19px 290px 36px 45px;
-    line-height: initial;
-}
-.rectangle {
-    width: 23%;
-    height: 53vh;
-    background-color: rgba(255,255,255, .3);
-    border: none;
-    border-radius: 8px;
-    margin: 107px 0px 0px 270px;
-}
+/*section3 ends*/
