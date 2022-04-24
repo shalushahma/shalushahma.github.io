@@ -543,7 +543,7 @@ a.current_dot {
 .boxwhite {
     margin: 10px;
     width: 97%;
-    height: 13vh;
+    height: 16vh;
     background-color: transparent;
     /* border-radius: 21px; */
     /* box-shadow: 7px 10px 14px -12px rgb(0 0 0 / 70%); */
@@ -598,8 +598,8 @@ a.current_dot {
     margin-top: 17px;
 }
  h2.sec4 {
-  color: #414141;
-    margin-top: 308px;
+    color: #414141;
+    margin-top: 173px;
     margin-bottom: 10px;
     font-size: 61px;
     font-weight: 700;

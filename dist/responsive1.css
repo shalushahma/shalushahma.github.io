@@ -128,7 +128,7 @@
     margin-top: 54px;
     font-weight: 800;
 }
-h4.sec4{c
+h4.sec4{
  font-size: 20px;
     color: #B1B1B1;
     font-weight: 400
@@ -140,6 +140,14 @@ h3.sec4 {
     margin-bottom: 10px;
     font-weight: 600;
 }
+h2.sec4 {
+    color: #414141;
+    margin-top: 173px;
+    margin-bottom: 10px;
+    font-size: 61px;
+    font-weight: 700;
+}
+
 }
 /*responsive for extra large laptop*/
 @media screen 
@@ -209,7 +217,7 @@ h3.sec4 {
 }
 .years {
     padding-left: 50px;
-    margin-top: 217px;
+    margin-top: 58px;
     margin-bottom: 2px;
     color: #EC6C00;
     letter-spacing: 2PX;
@@ -241,7 +249,7 @@ h4.sec4{
     font-weight: 400
 }
 .awalapp {
-    width: 71%;
+    width: 54%;
     margin-top: 55px;
     margin-left: auto;
     margin-right: auto;
@@ -328,6 +336,13 @@ h4.sec4{
     margin-left: auto;
     margin-right: auto;
     width: 86%;
+}
+.awalapp {
+    width: 62%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 h2.sec4 {
     color: #414141;
