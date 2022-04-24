@@ -589,10 +589,11 @@ a.current_dot {
 /*section3 ends*/
 /*section4 starts*/
 .awalapp {
-    width: 72%;
-    margin-top: 197px;
-    padding: 6px 5px 6px 62px;
-    margin-left: 94px;
+    width: 71%;
+    margin-top: 128px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .downloadapp {
     width: 37%;

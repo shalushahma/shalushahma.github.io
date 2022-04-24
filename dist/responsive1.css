@@ -1006,19 +1006,20 @@ h3.sec4 {
     margin: 0;
 }
 .awalapp {
-    width: 60%;
+    width: 27%;
     margin-top: 128px;
-    padding: 6px 5px 6px 62px;
-    margin-left: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .downloadapp {
-    width: 55%;
-    margin-top: 7px;
-    margin-left: 54px;
+    width: 39%;
+    margin: auto;
+    display: block;
 }
  h2.sec4 {
     color: #414141;
-    margin-top: 24px;
+    margin-top: 9px;
     margin-bottom: 10px;
     font-size: 23px;
     font-weight: 700;
