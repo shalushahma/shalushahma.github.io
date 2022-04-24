@@ -202,7 +202,7 @@ p + a {
   text-align: center;
   color: #fff;
 }
-h3 {
+/*h3 {
   font-size: 5rem;
   font-style: italic;
 }
@@ -216,7 +216,7 @@ h3, h3 + a {
   opacity: 0;
   transition: opacity .7s 0s, transform .5s .2s;
   transform: translate3d(0, 50%, 0);
-}
+}*/
 li.current h3, li.current h3 + a {
   opacity: 1;
   transition-delay: 1s;
@@ -421,18 +421,22 @@ a.current_dot {
 }
 .background:nth-child(3) {
   background-image: url(../dist/img/sec2background.png);
-  height: 130vh;
-}
-.background:nth-child(4) {
- background-color: #0059A3;
-  background background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 130vh;
 }
+.background:nth-child(4) {
+ background-color: #0059A3;
+  height: 130vh;
+}
 .background:nth-child(5) {
-  background-color: green;
+  background-image: url(../dist/img/sec4background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
   height: 130vh;
 }
 .background:nth-child(6) {
@@ -580,3 +584,34 @@ a.current_dot {
 }
 
 /*section3 ends*/
+/*section4 starts*/
+.awalapp {
+    width: 72%;
+    margin-top: 197px;
+    padding: 6px 5px 6px 62px;
+    margin-left: 94px;
+}
+.downloadapp {
+    width: 37%;
+    margin-top: 17px;
+}
+ h2.sec4 {
+  color: #414141;
+    margin-top: 308px;
+    margin-bottom: 10px;
+    font-size: 61px;
+    font-weight: 700;
+}
+h4.sec4{
+ font-size: 20px;
+    color: #B1B1B1;
+    font-weight: 400
+}
+h3.sec4 {
+    font-size: 23px;
+    color: #414141;
+    margin-top: 51px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+/*section4 ends*/
