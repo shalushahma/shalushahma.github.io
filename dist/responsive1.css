@@ -68,7 +68,7 @@
     text-align: center;
     color: #EC6C00;
     padding: 83px 70px 13px 70px;
-    margin-top: 190px;
+    margin-top: 54px;
     font-weight: 800;
 }
 
@@ -112,7 +112,7 @@
 }
 .awalapp {
     width: 72%;
-    margin-top: 197px;
+    margin-top: 54px;
     padding: 6px 5px 6px 62px;
     margin-left: 94px;
 }
@@ -120,14 +120,15 @@
     width: 37%;
     margin-top: 17px;
 }
- h2.sec4 {
-  color: #414141;
-    margin-top: 308px;
-    margin-bottom: 10px;
-    font-size: 61px;
-    font-weight: 700;
+.partners {
+    font-size: 39px;
+    text-align: center;
+    color: #EC6C00;
+    padding: 83px 70px 13px 70px;
+    margin-top: 54px;
+    font-weight: 800;
 }
-h4.sec4{
+h4.sec4{c
  font-size: 20px;
     color: #B1B1B1;
     font-weight: 400
@@ -229,15 +230,22 @@ h3.sec4 {
 }
 h2.sec4 {
     color: #414141;
-    margin-top: 257px;
+    margin-top: 144px;
     margin-bottom: 10px;
-    font-size: 51px;
+    font-size: 47px;
     font-weight: 700;
 }
 h4.sec4{
  font-size: 18px;
     color: #B1B1B1;
     font-weight: 400
+}
+.awalapp {
+    width: 71%;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 }
 /*responsive for small laptop screen*/
@@ -307,7 +315,7 @@ h4.sec4{
 }
 .years {
     padding-left: 50px;
-    margin-top: 185px;
+    margin-top: 45px;
     margin-bottom: 2px;
     color: #EC6C00;
     letter-spacing: 2PX;
@@ -323,9 +331,9 @@ h4.sec4{
 }
 h2.sec4 {
     color: #414141;
-    margin-top: 257px;
+    margin-top: 123px;
     margin-bottom: 10px;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
 }
 h4.sec4{
@@ -422,7 +430,7 @@ h3.sec4 {
     text-align: center;
     color: #EC6C00;
     padding: 83px 70px 13px 70px;
-    margin-top: 113px;
+    margin-top: 27px;
     font-weight: 800;
 }
 .page-title {
@@ -437,7 +445,7 @@ h3.sec4 {
 }
 .years {
     padding-left: 50px;
-    margin-top: 190px;
+    margin-top: 37px;
     margin-bottom: 2px;
     color: #EC6C00;
     font-size: 14px;
@@ -470,9 +478,9 @@ h3.sec4 {
 }
 h2.sec4 {
     color: #414141;
-    margin-top: 257px;
+    margin-top: 69px;
     margin-bottom: 10px;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
 }
 h4.sec4{
@@ -489,7 +497,7 @@ h3.sec4 {
 }
 .awalapp {
     width: 76%;
-    margin-top: 236px;
+    margin-top: 46px;
     padding: 6px 5px 6px 52px;
     margin-left: 55px;
 }
@@ -755,7 +763,7 @@ h3.sec4 {
 }
 .years {
     padding-left: 50px;
-    margin-top: 151px;
+    margin-top: 24px;
     margin-bottom: 2px;
     color: #EC6C00;
     font-size: 14px;
@@ -798,7 +806,7 @@ h3.sec4 {
     text-align: center;
     color: #EC6C00;
     padding: 83px 70px 13px 70px;
-    margin-top: 49px;
+    margin-top: -64px;
     font-weight: 600;
 }
 .section5 .col-12 {
@@ -824,7 +832,7 @@ h3.sec4 {
 }
 .awalapp {
     width: 41%;
-    margin-top: 119px;
+    margin-top: 2px;
     padding: 6px 5px 6px 62px;
     margin-left: 94px;
 }
@@ -949,7 +957,7 @@ h3.sec4 {
 }
 .years {
     padding-left: 35px;
-    margin-top: 158px;
+    margin-top: 27px;
     margin-bottom: 2px;
     color: #EC6C00;
     font-size: 12px;
@@ -985,9 +993,10 @@ h3.sec4 {
     text-align: center;
     color: #EC6C00;
     padding: 83px 70px 13px 70px;
-    margin-top: 49px;
+    margin-top: -74px;
     font-weight: 600;
 }
+
 .section5 .col-12 {
     margin-top: 3px;
     flex: 0 0 auto;
@@ -1017,7 +1026,7 @@ h3.sec4 {
 }
 .awalapp {
     width: 27%;
-    margin-top: 128px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     display: block;

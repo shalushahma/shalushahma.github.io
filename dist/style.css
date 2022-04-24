@@ -280,16 +280,15 @@ a.current_dot {
     line-height: 16rem;
     color:  #0059A3;
 }
-.years{
-  padding-left: 50px;
-   margin-top: 245px;
+.years {
+    padding-left: 50px;
+    margin-top: 78px;
     margin-bottom: 2px;
     color: #EC6C00;
     letter-spacing: 2PX;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
-    
 }
 .content__text{
    font-size: 22px;
@@ -520,7 +519,7 @@ a.current_dot {
   transform: translateY(40vh);
 }
 .background.down-scroll + .background:not(.down-scroll) {
-  transform: translate3d(0, -15vh, 0);
+  transform: translate3d(0, 0vh, 0);
 }
 .background.down-scroll + .background:not(.down-scroll) .content-wrapper {
   transform: translateY(15vh);
@@ -537,15 +536,14 @@ a.current_dot {
     text-align: center;
     color: #EC6C00;
     padding: 83px 70px 13px 70px;
-    margin-top: 80px;
+    margin-top: 54px;
     font-weight: 800;
 }
-
 
 .boxwhite {
     margin: 10px;
     width: 97%;
-    height: 22vh;
+    height: 13vh;
     background-color: transparent;
     /* border-radius: 21px; */
     /* box-shadow: 7px 10px 14px -12px rgb(0 0 0 / 70%); */
@@ -590,7 +588,7 @@ a.current_dot {
 /*section4 starts*/
 .awalapp {
     width: 71%;
-    margin-top: 128px;
+    margin-top:50px;
     margin-left: auto;
     margin-right: auto;
     display: block;
