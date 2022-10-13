@@ -46,14 +46,14 @@
 
     }
 
-    .fruit_section .fruit_detail-box {
+    .mission_section .mission_detail-box {
 
-        margin-bottom: 40px;
-        text-align: center;
+        margin-bottom:3px;
+        text-align:left;
 
     }
 
-    .fruit_detail-box>div {
+    .mission_detail-box>div {
 
         display: flex;
         justify-content: center;
@@ -79,24 +79,81 @@
         margin-bottom: 35px;
     }
 
-    .tasty_section h2 {
+    .image_section h2 {
 
         font-size: 80px;
     }
+     .custom_heading{
+        font-size: 30px;
+    }
+     .mission_detail-box h3{
+        font-size: 30px;
+        text-align: left;
+     }
+    .service_section .card .card-heading {
+       color: #FBBF18;
+       font-size: 20px;
+     }
+     .contact_section h3{
+       font-size: 30px;
+     }
+      .contact_section h2{
+       font-size: 30px;
+     }
+      .service_section h2{
+       font-size: 30px;
+     }
+    .slider_item-detail h1{
+        font-size: 30px;
+    }
+    .client_detail h3{
+         font-size: 20px;
+     }
+     p{
+         font-size: 12px;
+       }
 }
 
 @media (max-width: 576px) {
     .slider_item-container .slider_item-detail {
 
-        text-align: center;
+        text-align: left;
 
     }
-
+    .slider_item-detail h1{
+        font-size: 25px;
+    }
     .slider_item-container .slider_item-detail .d-flex {
 
-        justify-content: center;
+        justify-content:left;
 
     }
+    .custom_heading{
+        font-size: 25px;
+    }
+    .mission_detail-box h3{
+        font-size: 25px;
+        text-align: left;
+     }
+      .service_section .card .card-heading {
+       color: #FBBF18;
+       font-size: 18px;
+     }
+     .contact_section h3{
+       font-size: 25px;
+     }
+      .contact_section h2{
+       font-size: 25px;
+     }
+     .service_section h2{
+       font-size: 25px;
+     }
+     .client_detail h3{
+         font-size: 18px;
+     }
+     p{
+         font-size: 12px;
+       }
 }
 
 @media (max-width: 480px) {}
