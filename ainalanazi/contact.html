@@ -27,6 +27,9 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+   <!-- animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- animation end -->
 </head>
 
 <body>
@@ -80,10 +83,10 @@
 
   <!-- contact section -->
   <section class="contact_section layout_padding">
-    <div class="container">
+    <div class="container" >
       
       <div class="row">
-        <div class="col-md-6 mr-auto">
+        <div class="col-md-6 mr-auto" data-aos="fade-down"  data-aos-duration="1500">
           <h3>Get <span style="font-weight:900; color: #FFCD31;">In Touch </span>
 
             </h3><hr>
@@ -115,8 +118,8 @@
           </form>
         </div>
 
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
-          <div class="fruit_img-box d-flex justify-content-center align-items-center">
+        <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-left"  data-aos-duration="1500">
+          <div class="mission_img-box d-flex justify-content-center align-items-center">
             <img src="images/contactus.jpg" alt="" class="" width="90%" />
           </div>
         </div>
@@ -256,6 +259,13 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
   </script>
   <!-- end google map js -->
+  <!-- animation script-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- animation script end -->
 </body>
 
 </html>
