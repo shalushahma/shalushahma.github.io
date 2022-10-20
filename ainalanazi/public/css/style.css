@@ -31,6 +31,9 @@ body {
 p{
   font-size: 15px;
 }
+a{
+  color: #000;
+}
 
 .custom_dark-btn,
 .custom_orange-btn {
