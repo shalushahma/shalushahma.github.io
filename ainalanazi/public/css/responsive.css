@@ -9,9 +9,17 @@
 
     }
     p{
-  font-size: 19px;
+  font-size: 16px;
 }
-
+ul,li{
+  font-size: 16px;
+}
+h6{
+    font-weight: 600;
+}
+h4{
+    font-size: 21px;
+}
     .custom_dark-btn, .custom_orange-btn {
     display: inline-block;
     padding: 10px 0;
@@ -37,7 +45,10 @@
 
     }
 p{
-  font-size: 18px;
+  font-size: 16px;
+}
+ul,li{
+  font-size: 16px;
 }
     .service_section .card-deck .card {
         margin-bottom: 25px;
@@ -68,6 +79,9 @@ p{
     p{
   font-size: 15px;
    }  
+   ul,li{
+  font-size: 15px;
+   }
     .section1 {
     width: 100%;
     height: 52vh;
@@ -223,7 +237,9 @@ p{
      p{
          font-size: 12px;
        }
-
+     ul,li{
+        font-size: 12px;
+     }
     .slider_section {
         padding: 5px 0px 50px 0px;
 
@@ -238,6 +254,10 @@ p{
     justify-content: center;
     align-items: center;
 }
+ .service_section .card .card-img-top {
+    width: 65px;
+    margin: 55px auto 5px auto;
+}
 }
 
 @media (max-width: 480px) {
@@ -251,6 +271,11 @@ p{
     justify-content: center;
     align-items: center;
 }
+    .service_section .card .card-img-top {
+    width: 65px;
+    margin: 55px auto 5px auto;
+}
+
 }
 
 @media (max-width: 400px) {}
