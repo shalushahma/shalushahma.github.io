@@ -600,7 +600,7 @@ progress {
 
 @media (min-width: 1400px) {
     .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-        max-width:1320px
+/*        max-width:1320px*/
     }
 }
 
@@ -3988,8 +3988,8 @@ textarea.form-control-lg {
 }
 
 .navbar-nav {
-    display: flex;
-    flex-direction: column;
+    display: inline-flex;
+/*    flex-direction: column;*/
     padding-left: 0;
     margin-bottom: 0;
     list-style:none

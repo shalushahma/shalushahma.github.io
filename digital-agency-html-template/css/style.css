@@ -103,7 +103,7 @@ h6,
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: var(--light) !important;
+    color: #000 !important;
     outline: none;
     transition: .5s;
 }
@@ -113,11 +113,22 @@ h6,
     color: var(--dark) !important;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
+
+
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--secondary) !important;
+    color: var(--light) !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--light) !important;
 }
 
+
+.sticky-top.navbar-light .navbar-nav .nav-link.active {
+    color:var(--primary) !important;
+}
+.sticky-top.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--primary) !important;
+}
 .navbar-light .navbar-brand h1 {
     color: #000;
     
@@ -152,27 +163,34 @@ max-height: 0px;
 
     .navbar-light .navbar-nav .nav-link,
     .sticky-top.navbar-light .navbar-nav .nav-link {
-        padding: 10px 0;
+        padding: 0;
         margin-left: 0;
         color: var(--dark) !important;
     }
 
     .navbar-light .navbar-brand h1 {
-        color: var(--primary);
+       visibility: hidden;
     }
 
     .navbar-light .navbar-brand img {
         max-height: 45px;
+        
+
     }
+
 }
 
 @media (min-width: 992px) {
     .navbar-light {
+        background: url(../img/logoblack.png);
+        background-position: left 44px top 31px;
+        background-size: 9%;
+        background-repeat: no-repeat;
         position: absolute;
         width: 100%;
         top: 0;
         left: 0;
-        border-bottom: 1px solid rgba(256, 256, 256, .1);
+        border-bottom: 2px solid rgba(256, 256, 256, .1);
         z-index: 999;
     }
     
@@ -182,7 +200,9 @@ max-height: 0px;
     }
 
     .sticky-top.navbar-light .navbar-brand h1 {
-        color: var(--primary);
+/*        color: var(--primary);*/
+font-size: 0px;
+        visibility: hidden;
     }
 
     .navbar-light .navbar-nav .nav-item .dropdown-menu {
@@ -231,8 +251,9 @@ max-height: 0px;
         left 0px bottom 0px,
         right 0px bottom 0px,
         center center,
-        center bottom;
+        bottom center;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 @media (max-width: 991.98px) {
