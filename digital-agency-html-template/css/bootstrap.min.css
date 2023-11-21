@@ -50,7 +50,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #726D7B;
-    background-color: #F6F4F9;
+    background-color: #16406D;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color:rgba(0, 0, 0, 0)
 }
@@ -2894,9 +2894,9 @@ textarea.form-control-lg {
 }
 
 .btn-secondary {
-    color: #fff;
-    background-color: #000;
-    border-color:#000
+    color: #000;
+    background-color: #FDCB0A;
+    border-color:#FDCB0A;
 }
 
 .btn-secondary:hover {
@@ -7763,7 +7763,7 @@ textarea.form-control-lg {
 }
 
 .text-white {
-    color:#000 !important
+    color:#fff !important
 }
 
 .text-body {
@@ -7787,7 +7787,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-    background-color:#FDCB0A !important
+    background-color:#16406D !important
 }
 
 .bg-secondary {
