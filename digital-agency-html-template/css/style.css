@@ -103,7 +103,7 @@ h6,
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: #000 !important;
+    color: #FFF !important;
     outline: none;
     transition: .5s;
 }
@@ -116,10 +116,10 @@ h6,
 
 
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--light) !important;
+    color: #FDCB0A !important;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-    color: var(--light) !important;
+    color: #FDCB0A !important;
 }
 
 
@@ -221,15 +221,13 @@ font-size: 0px;
         transition: .5s;
         opacity: 1;
     }
-
-    .navbar-light .btn {
-        color: var(--dark);
-        background: #FFFFFF;
-    }
-
     .sticky-top.navbar-light .btn {
         color: var(--dark);
         background: #FDCB0A;
+    }
+    .navbar-light .btn {
+        color: var(--dark);
+        background: #FFFFFF;
     }
 }
 
