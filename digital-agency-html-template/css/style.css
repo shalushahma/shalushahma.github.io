@@ -521,6 +521,11 @@ font-size: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
+/*mission section*/
+.mission_detail-box h3{
+        font-size: 40px;
+     }
+/*end mission section*/
 
 /*** Team ***/
 .team-item .btn {
