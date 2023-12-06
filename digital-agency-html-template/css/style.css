@@ -258,6 +258,7 @@ font-size: 0px;
     .hero-header {
         padding: 6rem 0 9rem 0;
     }
+
 }
 
 
@@ -469,6 +470,29 @@ font-size: 0px;
     opacity: 1;
 }
 
+/* image section */
+
+.image_section {
+    width: 100%;
+/*    height: 900px;*/
+    background-image: url(../img/lightimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_section h2 {
+  font-size: 125px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* end image section */
 
 /*** Newsletter ***/
 .newsletter {
@@ -522,9 +546,7 @@ font-size: 0px;
 }
 
 /*mission section*/
-.mission_detail-box h3{
-        font-size: 40px;
-     }
+
 /*end mission section*/
 
 /*** Team ***/
@@ -549,6 +571,7 @@ font-size: 0px;
     background-position:
         center top,
         center center;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
