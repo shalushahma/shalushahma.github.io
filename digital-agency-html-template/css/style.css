@@ -237,21 +237,27 @@ font-size: 0px;
     margin-bottom: 6rem;
     padding: 18rem 0;
     background:
-      /*  url(../img/blob-top-left.png),
+        url(../img/blob-top-left.png),
         url(../img/blob-top-right.png),
         url(../img/blob-bottom-left.png),
         url(../img/blob-bottom-right.png),
-        url(../img/blob-center.png),*/
+        url(../img/blob-center.png),
         url(../img/bg-bottom.png);
     background-position:
-       /* left 0px top 0px,
+        left 0px top 0px,
         right 0px top 0px,
         left 0px bottom 0px,
         right 0px bottom 0px,
-        center center,*/
+        center center,
         bottom center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 
+    auto,
+    auto,
+    auto,
+    auto,
+    auto,
+    100%;
 }
 
 @media (max-width: 991.98px) {
@@ -571,7 +577,7 @@ font-size: 0px;
     background-position:
         center top,
         center center;
-    background-size: 100%;
+    background-size: 100%, auto;
     background-repeat: no-repeat;
 }
 
