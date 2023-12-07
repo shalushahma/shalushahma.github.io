@@ -374,7 +374,7 @@ font-size: 0px;
 .service-item:hover {
     margin-top: -15px;
     padding-bottom: 60px;
-    background: var(--primary);
+    background: #16406D;
 }
 
 .service-item .service-icon {
@@ -391,7 +391,7 @@ font-size: 0px;
 }
 
 .service-item:hover .service-icon {
-    color: var(--dark);
+    color: #16406D;
     background: url(../img/blob-secondary.png) center center no-repeat;
     background-size: contain;
 }
