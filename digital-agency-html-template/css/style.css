@@ -369,7 +369,30 @@ font-size: 0px;
 
 
 /*** Service ***/
+
+.imageBox {
+  position: relative;
+  float: left;
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+}
 .service-item {
+    position: relative;
+    padding: 45px 30px;
+    background: var(--light);
+    overflow: hidden;
+    transition: .5s;
+}
+.service-item1 {
     position: relative;
     padding: 45px 30px;
     background: var(--light);
@@ -383,6 +406,11 @@ font-size: 0px;
     background: #16406D;
 }
 
+.service-item1:hover {
+    margin-top: -15px;
+    padding-bottom: 60px;
+    background: #16406D;
+}
 .service-item .service-icon {
     margin: 0 auto 20px auto;
     width: 100px;
@@ -395,24 +423,59 @@ font-size: 0px;
     background-size: contain;
     transition: .5s;
 }
-
+.service-item1 .service-icon {
+    margin: 0 auto 20px auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+/*    background: url(../img/blob-primary.png) center center no-repeat;*/
+    background-size: contain;
+    transition: .5s;
+}
 .service-item:hover .service-icon {
     color: #16406D;
     background: url(../img/blob-secondary.png) center center no-repeat;
     background-size: contain;
+}
+.service-item1:hover .service-icon {
+    color: #16406D;
+/*    background: url(../img/blob-secondary.png) center center no-repeat;*/
+    background-size: contain;
+    
 }
 
 .service-item h5,
 .service-item p {
     transition: .5s;
 }
-
+.service-item1 h5,
+.service-item1 p {
+    transition: .5s;
+}
 .service-item:hover h5,
 .service-item:hover p {
     color: #FFFFFF;
 }
+.service-item1:hover h5,
+.service-item1:hover p {
+    color: #FFFFFF;
+}
 
 .service-item a.btn {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--primary);
+    background: #FFFFFF;
+    border-radius: 40px 40px 0 0;
+    transition: .5s;
+    z-index: 1;
+}
+.service-item1 a.btn {
     position: absolute;
     bottom: -40px;
     left: 50%;
@@ -428,11 +491,16 @@ font-size: 0px;
     color: var(--dark);
     background: var(--secondary);
 }
-
+.service-item1 a.btn:hover {
+    color: var(--dark);
+    background: var(--secondary);
+}
 .service-item:hover a.btn {
     bottom: 0;
 }
-
+.service-item1:hover a.btn {
+    bottom: 0;
+}
 
 /*** Project Portfolio ***/
 #portfolio-flters li {
