@@ -83,7 +83,229 @@ h6,
     font-weight: normal;
     border-radius: 50px;
 }
+/*header section*/
+.hero_area {
+  position: relative;
+}
 
+.sub_page .header_section {
+  position: relative;
+  background-color: #85310c;
+}
+
+.sub_page .header_section .custom_menu-btn span {
+  background-color: #fff;
+}
+
+.sub_page .header_section .navbar-brand span {
+  color: #fff;
+}
+
+.header_section {
+  padding: 15px 25px;
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+}
+
+.header_section .nav_container {
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  margin-left: 5%;
+}
+
+.navbar-brand span {
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.custom_nav-container {
+  padding: 0;
+  height: 100%;
+}
+
+.custom_nav-container .call_btn {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 8px 25px;
+  border: 1px solid #ffffff;
+  border-radius: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-left: auto;
+}
+
+.custom_nav-container .call_btn:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0px 25px;
+  color: #fefeff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.custom_menu-btn button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.custom_menu-btn span {
+  display: block;
+  width: 35px;
+  height: 4.5px;
+  background-color: #000000;
+  margin: 7px 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.menu_btn-style {
+  position: fixed;
+  left: 27.5px;
+  top: 12.5px;
+}
+
+.menu_btn-style button {
+  margin-top: 0px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  -webkit-transform: translateX(2px);
+          transform: translateX(2px);
+}
+
+.menu_btn-style span {
+  display: block;
+  width: 35px;
+  height: 4.5px;
+  background-color: #ffffff;
+  margin: 7px 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.menu_btn-style button .s-1 {
+  -webkit-transform: rotate(45deg) translateY(16px);
+          transform: rotate(45deg) translateY(16px);
+}
+
+.menu_btn-style button .s-2 {
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.menu_btn-style button .s-3 {
+  -webkit-transform: rotate(-45deg) translateY(-16px);
+          transform: rotate(-45deg) translateY(-16px);
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(141, 58, 21, 0.95);
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+.overlay a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 10px 0;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 1.5px solid #ffffff;
+  border-radius: 5px;
+  width: 190px;
+}
+
+.overlay a:hover, .overlay a.active {
+  border-color: transparent;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.menu_btn-style {
+  display: none;
+}
+
+.overlay-content {
+  position: relative;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu_width {
+  width: 100%;
+}
+
+.scroll-y-hidden {
+  overflow-y: hidden;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+.btn,
+.btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/*end header section*/
 
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
@@ -140,7 +362,13 @@ h6,
 
 /*    transition: .5s;*/
 }
+.navbar-brand img {
+max-height: 45px;
+}
 
+.navbar-toggler img {
+max-height: 28px;
+}
 .sticky-top.navbar-light .navbar-brand img {
     max-height: 45px;
 
@@ -159,6 +387,8 @@ max-height: 0px;
     .navbar-light .navbar-collapse {
         margin-top: 15px;
         border-top: 1px solid #DDDDDD;
+        height: 100%;
+         
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -183,7 +413,7 @@ max-height: 0px;
 @media (min-width: 992px) {
     .navbar-light {
         background: url(../img/logoblack.png);
-        background-position: left 44px top 31px;
+        background-position: left 73px top 31px;
         background-size: 9%;
         background-repeat: no-repeat;
         position: absolute;
