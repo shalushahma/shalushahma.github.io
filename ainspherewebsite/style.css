@@ -113,7 +113,7 @@ body{
 	line-height: 45px;
 	font-size: 14px;
 	border-radius: 5px 0 0 5px;
-	background: #1A76D1;
+	background: #1e448d;
 	text-align: center;
 	color: #fff;
 	top: 0;
@@ -304,8 +304,13 @@ body{
 .get-quote{
 	margin-top:12px;
 }
-.get-quote .btn{
-	color:#fff;
+.get-quote .btn {
+    color: #fff;
+    background: #1e448d;
+}
+.get-quote .btn:hover{
+    color: #fff;
+    background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87%);
 }
 .header .logo {
 	float: left;
@@ -610,7 +615,7 @@ body{
 	line-height: 42px;
 }
 .slider .single-slider h1 span{
-	color:#1a76d1;
+	color:#1e448d;
 }
 .slider .single-slider p {
 	color: #2C2D3F;
@@ -632,11 +637,11 @@ body{
 	margin:0;
 }
 .slider .single-slider .btn.primary{
-	background:#2C2D3F;
+	background:#1e448d;
 	color:#fff;
 }
 .slider .single-slider .btn.primary:before{
-	background:#1A76D1;
+background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87%);
 }
 .slider .owl-carousel .owl-nav {
 	margin: 0;
@@ -650,7 +655,7 @@ body{
 	width: 50px;
 	line-height: 50px;
 	text-align: center;
-	background: #1A76D1;
+	background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87%);
 	color: #fff;
 	font-size: 26px;
 	position: absolute;
@@ -662,7 +667,7 @@ body{
 	border-radius: 50%;
 }
 .slider .owl-carousel .owl-nav div:hover{
-	background:#2C2D3F;
+	background: #1e448d;
 	color:#fff;
 }
 .slider .owl-carousel .owl-controls .owl-nav .owl-prev{
@@ -705,7 +710,7 @@ body{
 	text-align: left;
 	z-index:3;
 	border-radius:5px;
-	background:#1A76D1;
+	background:#1E448D;
 	 -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -728,7 +733,7 @@ body{
     margin: 0 auto;
     width: 80%;
     height: 90%;
-    background:#1A76D1;
+    background:#1E448D;
     opacity: 0;
     filter: blur(10px);
     -webkit-transition: all .3s ease-out 0s;
