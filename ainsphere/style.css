@@ -54,6 +54,12 @@ body{
 	font-size:14px;
 	color:#888;
 }
+
+.logo img {
+    height: auto;
+    max-width: 75%;
+    padding: 2px 3px 15px 3px;
+}
 .pro-features {
 	position: fixed;
 	right: -300px;
@@ -273,7 +279,7 @@ body{
 	font-weight:400;
 }
 .header .top-link li:hover a{
-	color:#1A76D1;
+	color:#1e448d;
 }
 .header .top-contact{
 	float:right;
@@ -290,7 +296,7 @@ body{
 	font-size:14px;
 }
 .header .top-contact li a:hover{
-	color:#85c48d;
+	color:#1e448d;
 }
 .header .top-contact li i{
 	color: #2bb5c6;
@@ -308,10 +314,7 @@ body{
     color: #fff;
     background: #1e448d;
 }
-.get-quote .btn:hover{
-    color: #fff;
-    background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87%);
-}
+
 .header .logo {
 	float: left;
 	margin-top: 18px;
@@ -349,7 +352,7 @@ body{
 	bottom: 0;
 	height: 3px;
 	width:0%;
-	background: #1A76D1;
+	background: #1e448d;
 	border-radius: 5px 5px 0 0;
 	opacity:0;
 	visibility:hidden;
@@ -371,7 +374,7 @@ body{
 	visibility:visible;
 }
 .header .nav li:hover a{
-	color:#1a76d1;
+	color:#1e448d;
 }
 .header .nav li a i {
 	display: inline-block;
@@ -452,7 +455,7 @@ body{
 	opacity: 0;
 	visibility: hidden;
 	top: 74px;
-	border-left:3px solid #2889e4;
+	border-left:3px solid #2bb5c6;
 }
 .header .nav li:hover .dropdown{
 	opacity:1;
@@ -485,7 +488,7 @@ body{
 	border-bottom:0px;
 }
 .header .nav li .dropdown li:hover a{
-	color:#1A76D1;
+	color:#1e448d;
 }
 .header .nav li .dropdown li a:hover{
 	border-color:transparent;

@@ -340,7 +340,7 @@ Preloader Area CSS
   height: 100%;
   width: 60%;
   z-index: -1;
-  background: #1A76D1;
+  background: #1e448d;
   -webkit-transition: .9s;
   transition: .9s;
 }
@@ -446,7 +446,7 @@ Preloader Area CSS
 }
 .btn:hover{
 	color:#fff;
-  background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87%); ;
+  background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87%);
 }
 .btn:before{
 	content: "";
@@ -456,7 +456,7 @@ Preloader Area CSS
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: #2C2D3F;
+	background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87%);
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transform-origin: 50%;
@@ -648,7 +648,7 @@ dd {
 img {
 	height: auto;
 	/* Make sure images are scaled correctly. */
-	max-width: 50%;
+	max-width: 65%;
 	/* Adhere to container width. */
 	padding: 2px 3px 15px 3px;
 }
