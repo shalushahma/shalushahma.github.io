@@ -648,9 +648,9 @@ dd {
 img {
 	height: auto;
 	/* Make sure images are scaled correctly. */
-	max-width: 65%;
+	max-width: 200px;
 	/* Adhere to container width. */
-	padding: 2px 3px 15px 3px;
+/*	padding: 2px 3px 15px 3px;*/
 }
 
 figure {
