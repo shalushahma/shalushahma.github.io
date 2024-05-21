@@ -129,7 +129,7 @@ body{
 	bottom: 15px;
 	right: 15px;
 	padding: 10px 20px;
-	background: #1a76d1;
+	background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87%);
 	color: #fff;
 	font-size: 25px;
 	width: 45px;
@@ -141,7 +141,7 @@ body{
 	box-shadow: 0px 0px 10px #00000026;
 }
 #scrollUp:hover{
-	background:#2C2D3F;
+	background:#1e448d;
 }
 /* Color Plate */
 .color-plate {
@@ -2722,7 +2722,7 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 ============================*/
 .appointment{
 	background:#fff;
-	padding-top:100px;
+	padding:100px;
 }
 .appointment.single-page {
 	background: #fff;
@@ -3973,7 +3973,7 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 .footer .footer-top{
 	padding:100px 0px;
 	position:relative;
-	background:#1A76D1;
+	background:#1e448d;
 }
 .footer .footer-top:before{
 	position:absolute;
@@ -4157,7 +4157,7 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 	color:#2C2D3F;
 }
 .footer .copyright{
-	background:#1A76D1;
+	background:#1e448d;
 	padding:25px 0px 25px 0px;
 	text-align:center;
 }
