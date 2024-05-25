@@ -600,17 +600,16 @@ body{
 	background-repeat:no-repeat;
 }
 .slider .single-slider .text{
-	margin-top:120px;
+	margin: 20px;
+	padding: 10px;
 }
 .slider.index2 .single-slider .text{
-	margin-top:150px;
+/*	margin-top:150px;*/
 }
 .slider .single-slider h1 {
 	color: #2C2D3F;
 	font-size: 38px;
 	font-weight: 700;
-	margin: 0;
-	padding: 0;
 	line-height: 42px;
 }
 .slider .single-slider h1 span{
@@ -618,11 +617,12 @@ body{
 }
 .slider .single-slider p {
 	color: #2C2D3F;
-	margin-top: 27px;
+	padding-top: 10px;
 	font-weight: 400;
 }
 .slider .single-slider .button{
-	margin-top:30px;
+
+	padding: 25px 0px 60px 0px;
 }
 .slider .single-slider .btn{
 	color:#fff;
@@ -849,13 +849,18 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 	position:relative;
 	padding:10px 20px;
 }
+.Feautes .single-features p{
+	text-align: left;
+	position:relative;
+	padding:3px 20px 40px 20px;
+}
 .Feautes .single-features::before {
 	position: absolute;
 	content: "";
 	right: -72px;
 	top: 60px;
 	width: 118px;
-	border-bottom: 3px dotted #1a76d1;
+	border-bottom: 3px dotted #1e448d;
 }
 .Feautes .single-features.last::before{
 	display:none;
@@ -876,6 +881,21 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 	text-align:center;
 	border:1px solid #dddddd;
 	border-radius:100%;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+.solutions-icons img{
+	
+	position:absolute;
+	left:50%;
+	margin-left:-50px;
+	top:0;
+	height:80px;
+	width:80px;
+	line-height:100px;
+	text-align:center;
+	
 	-webkit-transition:all 0.4s ease;
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
@@ -1014,7 +1034,7 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 .why-choose .choose-right{
 	height:100%;
 	width:100%;
-	background-image:url('img/video-bg.jpg');
+	background-image:url('img/aboutsection.jpg');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -2722,7 +2742,7 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 ============================*/
 .appointment{
 	background:#fff;
-	padding:100px;
+	padding:20px 15px 50px 15px;
 }
 .appointment.single-page {
 	background: #fff;
@@ -2744,7 +2764,7 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 }
 .appointment.single-page .title p{}
 .appointment .form{
-	margin-top:30px;
+	margin-top:0px;
 }
 .appointment .form .form-group{}
 .appointment .form input {
