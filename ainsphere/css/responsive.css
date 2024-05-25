@@ -538,7 +538,8 @@ h1{
 }
 .section-title {
 	margin-bottom: 30px;
-	padding: 0px 20px;
+	padding: 0px 0px;
+	text-align: left;
 }
 .section-title h2 {
 	font-size: 22px;
@@ -613,9 +614,9 @@ h1{
 }
 
 .slider .single-slider h1 {
-	font-size: 28px;
+	font-size: 25px;
 	font-weight: 600;
-	line-height: 35px;
+	line-height: 32px;
 }
 .slider .single-slider .text {
 	margin-top: 5px;
@@ -660,7 +661,15 @@ h1{
 }
 .Feautes .single-features h3 {
 	padding-top: 105px;
-	font-size: 20px;
+	font-size: 16px;
+}
+.why-choose .choose-left h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2C2D3F;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 24px;
 }
 .fun-facts.section{
 	padding:70px 0;

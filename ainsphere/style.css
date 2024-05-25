@@ -49,7 +49,7 @@ Version:	1.1
 	Global CSS 
 ===============================*/
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size:14px;
 	color:#888;
@@ -600,7 +600,8 @@ body{
 	background-repeat:no-repeat;
 }
 .slider .single-slider .text{
-	margin: 20px;
+	margin: 5px;
+	margin-top: 40px;
 	padding: 10px;
 }
 .slider.index2 .single-slider .text{
@@ -614,6 +615,9 @@ body{
 }
 .slider .single-slider h1 span{
 	color:#1e448d;
+}
+h2 span {
+color: #2bb5c6;
 }
 .slider .single-slider p {
 	color: #2C2D3F;
@@ -907,9 +911,9 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 }
 .Feautes .single-features h3{
 	padding-top: 128px;
-	color:#2C2D3F;
+	color:#1e448d;
 	font-weight:600;
-	font-size:21px;
+	font-size:19px;
 }
 .Feautes .single-features p {
 	margin-top: 20px;
@@ -988,7 +992,7 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 	Why choose CSS
 =====================*/
 .why-choose .choose-left h3{
-	font-size:24px;
+	font-size:20px;
 	font-weight:600;
 	color:#2C2D3F;
 	position:relative;

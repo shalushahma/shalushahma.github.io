@@ -490,7 +490,7 @@ Preloader Area CSS
 	margin-bottom: 24px;
 	margin-top: 100px;
 	position: relative;
-	color: #2C2D3F;
+	color: #1e448d;
 }
 .section-title p{
 	font-size:15px;
@@ -508,7 +508,7 @@ Preloader Area CSS
 	top:0;
 	height:100%;
 	width:100%;
-	background:#1a76d1;
+  background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87%);
 	opacity:0.8;
 }
 /* Bread Crumbs */
