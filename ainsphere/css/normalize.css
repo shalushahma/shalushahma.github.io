@@ -509,8 +509,10 @@ Preloader Area CSS
 	height:100%;
 	width:100%;
 
-  background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87%);
-	opacity:0.8;
+  background: #1e448d;
+	opacity:0.6;
+  /*background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87%);
+	opacity:0.8;*/
 }
 /* Bread Crumbs */
 .breadcrumbs {

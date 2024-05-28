@@ -422,11 +422,15 @@ h1{
 .slicknav_menu{
 	display:block;
 }
+
 .slicknav_menu {
-	display: block;
-	background: transparent;
-	padding: 0;
-}
+    display: block;
+    background: transparent;
+    padding: 0;
+    text-align: center;
+    line-height: 3;
+    }
+
 .slicknav_btn {
 	background: transparent;
 	padding: 0;
@@ -664,7 +668,7 @@ h1{
 	font-size: 16px;
 }
 .why-choose .choose-left h3 {
-    font-size: 1px;
+    font-size: 18px;
     font-weight: 600;
     color: #2C2D3F;
     position: relative;

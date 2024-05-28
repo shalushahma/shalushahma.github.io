@@ -53,6 +53,7 @@ body{
 	font-weight: 400;
 	font-size:14px;
 	color:#888;
+	scroll-behavior: smooth;
 }
 
 
@@ -854,7 +855,7 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 	padding:10px 20px;
 }
 .Feautes .single-features p{
-	text-align: left;
+	text-align: center;
 	position:relative;
 	padding:3px 0px 40px 0px;
 }
@@ -935,6 +936,7 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 	background:url('img/fun-bg.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
+	height: 600px;
 }
 .fun-facts .single-fun {
 	
@@ -2745,7 +2747,7 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 	Start Appointment CSS
 ============================*/
 .appointment{
-	background:#fff;
+	background:#f9f9f9;
 	padding:20px 15px 50px 15px;
 }
 .appointment.single-page {
