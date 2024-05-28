@@ -664,7 +664,7 @@ h1{
 	font-size: 16px;
 }
 .why-choose .choose-left h3 {
-    font-size: 16px;
+    font-size: 1px;
     font-weight: 600;
     color: #2C2D3F;
     position: relative;
@@ -1065,7 +1065,7 @@ h1{
 }
 .section-title {
 	margin-bottom: 30px;
-	padding: 0px 20px;
+	padding: 0;
 }
 .section-title h2 {
 	font-size: 22px;

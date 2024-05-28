@@ -481,7 +481,7 @@ Preloader Area CSS
 .section-title{
 	text-align: center;
     margin-bottom: 60px;
-    padding: 0 250px;
+    padding: 0 200px;
 }
 .section-title h2 {
 	font-size: 32px;
@@ -508,6 +508,7 @@ Preloader Area CSS
 	top:0;
 	height:100%;
 	width:100%;
+
   background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87%);
 	opacity:0.8;
 }

@@ -856,7 +856,7 @@ background: linear-gradient(90deg, rgba(133,196,141,1) 0%, rgba(43,181,198,1) 87
 .Feautes .single-features p{
 	text-align: left;
 	position:relative;
-	padding:3px 20px 40px 20px;
+	padding:3px 0px 40px 0px;
 }
 .Feautes .single-features::before {
 	position: absolute;
